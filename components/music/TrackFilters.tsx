@@ -10,19 +10,19 @@ type Sort = "newest" | "featured" | "title";
 
 export function TrackFilters({ tracks }: { tracks: Track[] }) {
   const [session, setSession] = useState("all");
-  const [mood, setMood] = useState("all");
+  const [style, setStyle] = useState("all");
   const [sort, setSort] = useState<Sort>("newest");
 
   const filteredTracks = useMemo(() => {
     return tracks
       .filter((track) => session === "all" || track.session === session)
-      .filter((track) => mood === "all" || track.moods.includes(mood))
+      .filter((track) => style === "all" || track.moods.includes(style))
       .sort((a, b) => {
         if (sort === "title") return a.title.localeCompare(b.title);
         if (sort === "featured") return Number(Boolean(b.featured)) - Number(Boolean(a.featured));
         return (b.releaseDate || "").localeCompare(a.releaseDate || "");
       });
-  }, [mood, session, sort, tracks]);
+  }, [session, sort, style, tracks]);
 
   return (
     <div>
@@ -40,10 +40,10 @@ export function TrackFilters({ tracks }: { tracks: Track[] }) {
               </FilterButton>
             ))}
           </FilterGroup>
-          <FilterGroup label="Mood">
-            <FilterButton active={mood === "all"} onClick={() => setMood("all")}>All</FilterButton>
+          <FilterGroup label="Genre / Style">
+            <FilterButton active={style === "all"} onClick={() => setStyle("all")}>All</FilterButton>
             {moods.map((item) => (
-              <FilterButton key={item} active={mood === item} onClick={() => setMood(item)}>
+              <FilterButton key={item} active={style === item} onClick={() => setStyle(item)}>
                 {item}
               </FilterButton>
             ))}

@@ -30,9 +30,12 @@ export function TrackCard({ track, priority = false }: { track: Track; priority?
       <div className="p-5">
         <SessionBadge>{track.sessionLabel}</SessionBadge>
         <h3 className="mt-4 font-display text-2xl leading-tight">{track.title}</h3>
+        <p className="mt-2 text-xs font-semibold uppercase tracking-[0.16em] text-accent">
+          {track.primaryGenre}
+        </p>
         <p className="mt-3 text-sm leading-6 text-muted">{track.hook}</p>
         <div className="mt-5 flex flex-wrap gap-2">
-          {track.moods.map((mood) => (
+          {track.moods.slice(0, 3).map((mood) => (
             <MoodTag key={mood}>{mood}</MoodTag>
           ))}
         </div>

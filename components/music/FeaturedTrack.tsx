@@ -29,6 +29,9 @@ export function FeaturedTrack({ track }: { track: Track }) {
         </div>
         <div className="flex flex-col justify-center p-2 lg:p-4">
           <SessionBadge>{track.sessionLabel}</SessionBadge>
+          <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-accent">
+            {track.primaryGenre}
+          </p>
           <p className="mt-5 text-lg leading-8 text-muted">{track.description}</p>
           {excerpt ? (
             <blockquote className="mt-6 border-l-2 border-accent pl-5 font-display text-2xl leading-snug text-foreground">
@@ -36,7 +39,7 @@ export function FeaturedTrack({ track }: { track: Track }) {
             </blockquote>
           ) : null}
           <div className="mt-6 flex flex-wrap gap-2">
-            {track.moods.map((mood) => (
+            {track.moods.slice(0, 4).map((mood) => (
               <MoodTag key={mood}>{mood}</MoodTag>
             ))}
           </div>

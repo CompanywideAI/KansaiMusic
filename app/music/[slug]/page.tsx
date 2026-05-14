@@ -68,7 +68,7 @@ export default async function SongDetailPage({ params }: Props) {
       "@type": "MusicGroup",
       name: "Gintz Music",
     },
-    genre: track.sessionLabel,
+    genre: [track.primaryGenre, ...track.secondaryStyles],
     description: track.description,
     datePublished: track.releaseDate,
   };
@@ -97,8 +97,11 @@ export default async function SongDetailPage({ params }: Props) {
             <SessionBadge>{track.sessionLabel}</SessionBadge>
             <h1 className="mt-5 font-display text-5xl leading-tight sm:text-7xl">{track.title}</h1>
             <p className="mt-5 text-xl leading-8 text-muted">{track.description}</p>
+            <p className="mt-4 text-sm font-semibold uppercase tracking-[0.16em] text-accent">
+              {track.primaryGenre}
+            </p>
             <div className="mt-5 flex flex-wrap gap-2">
-              {track.moods.map((mood) => (
+              {track.moods.slice(0, 5).map((mood) => (
                 <MoodTag key={mood}>{mood}</MoodTag>
               ))}
             </div>
@@ -141,6 +144,27 @@ export default async function SongDetailPage({ params }: Props) {
           </article>
         </div>
         <aside className="grid content-start gap-6">
+          <div className="rounded-[8px] border border-border bg-panel/72 p-6">
+            <h2 className="font-display text-3xl">Track details</h2>
+            <dl className="mt-5 grid gap-4 text-sm">
+              <div>
+                <dt className="text-muted">Album</dt>
+                <dd className="mt-1 font-semibold">{track.album}</dd>
+              </div>
+              <div>
+                <dt className="text-muted">Primary genre</dt>
+                <dd className="mt-1 font-semibold">{track.primaryGenre}</dd>
+              </div>
+              <div>
+                <dt className="text-muted">Secondary styles</dt>
+                <dd className="mt-1 font-semibold">{track.secondaryStyles.join(", ")}</dd>
+              </div>
+              <div>
+                <dt className="text-muted">Languages</dt>
+                <dd className="mt-1 font-semibold">{track.languages.join(", ")}</dd>
+              </div>
+            </dl>
+          </div>
           <div className="rounded-[8px] border border-border bg-panel/72 p-6">
             <h2 className="font-display text-3xl">Credits</h2>
             <dl className="mt-5 grid gap-4 text-sm">
