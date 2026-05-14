@@ -24,17 +24,23 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const songOfDay = getSongOfDay();
   const videos = tracks.filter((track) => track.videoSrc).slice(0, 2);
+  const socialLinks = [
+    ["Instagram", process.env.NEXT_PUBLIC_INSTAGRAM_URL, Instagram],
+    ["TikTok", process.env.NEXT_PUBLIC_TIKTOK_URL, Music2],
+    ["YouTube", process.env.NEXT_PUBLIC_YOUTUBE_URL, Youtube],
+    ["Spotify / Apple Music", process.env.NEXT_PUBLIC_SPOTIFY_URL || process.env.NEXT_PUBLIC_APPLE_MUSIC_URL, PlayCircle],
+  ] as const;
 
   return (
     <>
       <section className="texture relative overflow-hidden border-b border-border">
-        <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(0,0,0,0.78),rgba(0,0,0,0.18)_42%,rgba(0,0,0,0.8)),url('/images/covers/after-the-last-train.svg')] bg-cover bg-center opacity-90" />
-        <div className="relative mx-auto grid min-h-[calc(100vh-7rem)] max-w-7xl content-end px-4 py-16 sm:px-6 lg:px-8">
-          <MotionReveal>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(103,180,255,0.20),transparent_28rem),radial-gradient(circle_at_78%_24%,rgba(228,90,79,0.15),transparent_24rem),linear-gradient(115deg,rgba(7,8,10,0.98),rgba(31,26,24,0.92)_48%,rgba(10,10,10,0.98))] opacity-95" />
+        <div className="relative mx-auto grid min-h-[min(760px,calc(100svh-5.5rem))] max-w-7xl content-center px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+          <div>
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.24em] text-accent">
               Original lyrics. Human direction. AI-assisted production.
             </p>
-            <h1 className="max-w-5xl font-display text-5xl leading-[0.98] text-white sm:text-7xl lg:text-8xl">
+            <h1 className="max-w-5xl text-balance font-display text-5xl leading-[1.03] text-white sm:text-6xl lg:text-7xl xl:text-8xl">
               Songs from somewhere between memory and signal.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/74">
@@ -47,7 +53,7 @@ export default function HomePage() {
                 Watch Lyrics
               </ButtonLink>
             </div>
-          </MotionReveal>
+          </div>
         </div>
       </section>
 
@@ -124,16 +130,17 @@ export default function HomePage() {
           <div className="rounded-[8px] border border-border bg-panel/75 p-6">
             <h2 className="font-display text-3xl">Follow Gintz Music</h2>
             <div className="mt-5 flex flex-wrap gap-2">
-              {[
-                ["Instagram", Instagram],
-                ["TikTok", Music2],
-                ["YouTube", Youtube],
-                ["Spotify / Apple Music", PlayCircle],
-              ].map(([label, Icon]) => (
-                <a key={String(label)} href="#" className="focus-ring inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-muted hover:border-accent hover:text-foreground">
-                  <Icon className="h-4 w-4" /> {String(label)}
-                </a>
-              ))}
+              {socialLinks.map(([label, href, Icon]) =>
+                href ? (
+                  <a key={label} href={href} className="focus-ring inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-muted hover:border-accent hover:text-foreground">
+                    <Icon className="h-4 w-4" /> {label}
+                  </a>
+                ) : (
+                  <span key={label} className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-muted opacity-60">
+                    <Icon className="h-4 w-4" /> {label} soon
+                  </span>
+                ),
+              )}
             </div>
           </div>
         </div>

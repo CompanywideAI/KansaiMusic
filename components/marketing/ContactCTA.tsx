@@ -12,7 +12,8 @@ export function ContactCTA() {
       </p>
       <a
         href={`mailto:${contactEmail()}`}
-        className="focus-ring mt-6 inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-3 text-sm font-semibold text-background hover:bg-accent"
+        className="focus-ring mt-6 inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold hover:bg-accent"
+        style={{ backgroundColor: "#f5efe3", color: "#101010" }}
       >
         {contactEmail()} <ArrowRight className="h-4 w-4" />
       </a>

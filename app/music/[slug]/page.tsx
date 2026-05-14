@@ -57,11 +57,12 @@ export default async function SongDetailPage({ params }: Props) {
   }
 
   const relatedTracks = getRelatedTracks(track);
+  const trackUrl = siteUrl(`/music/${track.slug}`);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MusicRecording",
     name: track.title,
-    url: siteUrl(`/music/${track.slug}`),
+    url: trackUrl,
     duration: track.runtime,
     byArtist: {
       "@type": "MusicGroup",
@@ -105,7 +106,7 @@ export default async function SongDetailPage({ params }: Props) {
               <AudioPlayer track={track} />
             </div>
             <div className="mt-6">
-              <ShareLinks track={track} />
+              <ShareLinks track={track} url={trackUrl} />
             </div>
           </div>
         </div>

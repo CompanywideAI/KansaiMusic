@@ -1,14 +1,14 @@
-import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/src/lib/utils";
 
 type LogoProps = {
   variant?: "dark" | "light";
   className?: string;
+  imageClassName?: string;
   priority?: boolean;
 };
 
-export function Logo({ variant = "dark", className, priority = false }: LogoProps) {
+export function Logo({ variant = "dark", className, imageClassName, priority = false }: LogoProps) {
   const src =
     variant === "dark"
       ? "/images/logos/logo-gintz-music-white.svg"
@@ -16,13 +16,13 @@ export function Logo({ variant = "dark", className, priority = false }: LogoProp
 
   return (
     <Link href="/" className={cn("focus-ring inline-flex items-center", className)} aria-label="Gintz Music home">
-      <Image
+      {/* The supplied SVG artboard needs native intrinsic rendering to stay visible at nav sizes. */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         src={src}
         alt="Gintz Music"
-        width={188}
-        height={56}
-        priority={priority}
-        className="h-auto max-h-14 w-auto"
+        fetchPriority={priority ? "high" : "auto"}
+        className={cn("h-[58px] w-auto sm:h-[72px]", imageClassName)}
       />
     </Link>
   );

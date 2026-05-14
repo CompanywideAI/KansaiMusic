@@ -12,8 +12,8 @@ const navItems = [
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/78 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-3 sm:px-6 lg:px-8">
-        <Logo priority className="shrink-0" />
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-4 py-2 sm:px-6 lg:px-8">
+        <Logo priority variant="dark" className="shrink-0" />
         <nav aria-label="Main navigation" className="hidden items-center gap-1 md:flex">
           {navItems.map((item) => (
             <Link
@@ -34,7 +34,7 @@ export function Header() {
       </div>
       <nav
         aria-label="Mobile navigation"
-        className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 pb-3 sm:px-6 md:hidden"
+        className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 pb-2 sm:px-6 md:hidden"
       >
         {navItems.map((item) => (
           <Link

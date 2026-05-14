@@ -45,7 +45,8 @@ export function FeaturedTrack({ track }: { track: Track }) {
           </div>
           <Link
             href={`/music/${track.slug}`}
-            className="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-full bg-foreground px-5 py-3 text-sm font-semibold text-background transition hover:bg-accent"
+            className="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-full px-5 py-3 text-sm font-semibold transition hover:bg-accent"
+            style={{ backgroundColor: "#f5efe3", color: "#101010" }}
           >
             Go to song <ArrowRight className="h-4 w-4" />
           </Link>

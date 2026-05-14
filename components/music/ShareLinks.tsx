@@ -1,15 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { Copy, Facebook, Mail, Twitter } from "lucide-react";
 import { Track } from "@/src/data/tracks";
 
-export function ShareLinks({ track }: { track: Track }) {
+export function ShareLinks({ track, url }: { track: Track; url: string }) {
   const [copied, setCopied] = useState(false);
-  const url = useMemo(() => {
-    if (typeof window === "undefined") return "";
-    return window.location.href;
-  }, []);
   const encodedUrl = encodeURIComponent(url);
   const text = encodeURIComponent(`Listen to ${track.title} by Gintz Music`);
 
