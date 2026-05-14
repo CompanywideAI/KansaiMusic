@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Signal for Sleepwalkers cover">
+  <rect width="1200" height="1200" fill="#14100f"/>
+  <path d="M0 780 1200 360v840H0Z" fill="#26201f"/>
+  <circle cx="310" cy="320" r="120" fill="#67b4ff" opacity=".72"/>
+  <circle cx="910" cy="720" r="175" fill="#e45a4f" opacity=".55"/>
+  <text x="90" y="160" fill="#f5efe3" font-family="Georgia, serif" font-size="78">Signal for</text>
+  <text x="90" y="248" fill="#f5efe3" font-family="Georgia, serif" font-size="78">Sleepwalkers</text>
+  <text x="94" y="1065" fill="#c9a461" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">AFTERGLOW SESSIONS</text>
+</svg>

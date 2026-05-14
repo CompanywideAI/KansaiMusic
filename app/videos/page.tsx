@@ -1,0 +1,39 @@
+import type { Metadata } from "next";
+import { Suspense } from "react";
+import { VideoCard } from "@/components/video/VideoCard";
+import { tracks } from "@/src/data/tracks";
+
+export const metadata: Metadata = {
+  title: "Videos",
+  description: "Lyric videos and visualizers from Gintz Music sessions.",
+  alternates: { canonical: "/videos" },
+  openGraph: {
+    title: "Videos | Gintz Music",
+    description: "A gallery of lyric videos and visualizers for Gintz Music songs.",
+    url: "/videos",
+  },
+};
+
+export default function VideosPage() {
+  const videos = tracks.filter((track) => track.videoSrc);
+
+  return (
+    <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+      <div className="mb-10 max-w-3xl">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Visuals</p>
+        <h1 className="mt-4 font-display text-5xl leading-tight sm:text-6xl">Lyric videos</h1>
+        <p className="mt-5 text-lg leading-8 text-muted">
+          Posters load first, full media stays out of the first paint, and video players use
+          metadata-free lazy loading until a listener chooses to play.
+        </p>
+      </div>
+      <Suspense fallback={<p className="text-muted">Loading videos...</p>}>
+        <div className="grid gap-6 lg:grid-cols-2">
+          {videos.map((track) => (
+            <VideoCard key={track.slug} track={track} />
+          ))}
+        </div>
+      </Suspense>
+    </section>
+  );
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Chapel Light cover">
+  <rect width="1200" height="1200" fill="#11100f"/>
+  <path d="M600 165 930 520v515H270V520Z" fill="#24211f" stroke="#c9a461" stroke-width="5"/>
+  <path d="M600 330v530M420 590h360" stroke="#f5efe3" stroke-opacity=".8" stroke-width="18"/>
+  <circle cx="600" cy="600" r="360" fill="#c9a461" opacity=".08"/>
+  <text x="120" y="170" fill="#f5efe3" font-family="Georgia, serif" font-size="92">Chapel Light</text>
+  <text x="124" y="1070" fill="#c9a461" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">GOSPEL SESSIONS</text>
+</svg>

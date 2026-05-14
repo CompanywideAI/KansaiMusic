@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Paper Moon Radio cover">
+  <rect width="1200" height="1200" fill="#f5efe3"/>
+  <rect x="70" y="70" width="1060" height="1060" fill="#151515"/>
+  <circle cx="810" cy="350" r="210" fill="#e45a4f" opacity=".78"/>
+  <path d="M195 765c180-90 360-90 540 0s300 85 360 20" fill="none" stroke="#c9a461" stroke-width="8" opacity=".8"/>
+  <text x="130" y="180" fill="#f5efe3" font-family="Georgia, serif" font-size="78">Paper Moon</text>
+  <text x="130" y="268" fill="#f5efe3" font-family="Georgia, serif" font-size="78">Radio</text>
+  <text x="134" y="1015" fill="#c9a461" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">THE EMI SESSIONS</text>
+</svg>

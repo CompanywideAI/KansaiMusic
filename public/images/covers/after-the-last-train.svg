@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="After the Last Train cover">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset=".55" stop-color="#26201f"/><stop offset="1" stop-color="#c9a461"/></linearGradient></defs>
+  <rect width="1200" height="1200" fill="url(#g)"/>
+  <path d="M180 825h840M260 725h680M330 625h540" stroke="#f5efe3" stroke-opacity=".22" stroke-width="3"/>
+  <circle cx="760" cy="360" r="150" fill="#67b4ff" opacity=".18"/>
+  <text x="90" y="150" fill="#f5efe3" font-family="Georgia, serif" font-size="84">Gintz Music</text>
+  <text x="90" y="1010" fill="#f5efe3" font-family="Georgia, serif" font-size="96">After the Last Train</text>
+  <text x="94" y="1082" fill="#c9a461" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">MILO &amp; EMI SESSIONS</text>
+</svg>

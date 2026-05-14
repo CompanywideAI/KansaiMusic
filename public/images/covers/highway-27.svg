@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Highway 27 cover">
+  <rect width="1200" height="1200" fill="#f5efe3"/>
+  <path d="M500 1200 610 590 720 1200Z" fill="#1b1717"/>
+  <path d="M615 1200 610 980M610 860l5-170" stroke="#c9a461" stroke-width="10" stroke-dasharray="40 42"/>
+  <circle cx="860" cy="235" r="125" fill="#e45a4f"/>
+  <text x="90" y="168" fill="#1b1717" font-family="Georgia, serif" font-size="96">Highway 27</text>
+  <text x="94" y="1080" fill="#1b1717" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">COUNTRY SESSIONS</text>
+</svg>

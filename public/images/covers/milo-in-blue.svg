@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Milo in Blue cover">
+  <rect width="1200" height="1200" fill="#0c1118"/>
+  <rect x="145" y="145" width="910" height="910" fill="none" stroke="#67b4ff" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="410" cy="460" r="260" fill="#67b4ff" opacity=".2"/>
+  <path d="M160 820c205-45 335-45 540 0s270 45 340-10" fill="none" stroke="#f5efe3" stroke-opacity=".28" stroke-width="8"/>
+  <text x="100" y="172" fill="#f5efe3" font-family="Georgia, serif" font-size="94">Milo in Blue</text>
+  <text x="104" y="1070" fill="#67b4ff" font-family="Arial, sans-serif" font-size="32" letter-spacing="8">THE MILO SESSIONS</text>
+</svg>
