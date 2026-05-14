@@ -69,9 +69,9 @@ export function TrackFilters({ tracks }: { tracks: Track[] }) {
 
 function FilterGroup({ label, children }: { label: string; children: React.ReactNode }) {
   return (
-    <fieldset className="grid gap-2">
+    <fieldset className="min-w-0">
       <legend className="mb-2 text-sm font-semibold text-foreground">{label}</legend>
-      <div className="flex flex-wrap gap-2">{children}</div>
+      <div className="flex flex-wrap items-start gap-2">{children}</div>
     </fieldset>
   );
 }
@@ -90,8 +90,8 @@ function FilterButton({
       type="button"
       onClick={onClick}
       className={cn(
-        "focus-ring rounded-full border border-border px-3 py-2 text-sm text-muted transition",
-        active && "border-accent bg-accent text-background",
+        "focus-ring inline-flex min-h-11 shrink-0 items-center justify-center whitespace-nowrap rounded-full border border-border px-4 py-2 text-sm leading-none text-muted transition",
+        active && "border-accent bg-accent text-[#101010]",
       )}
     >
       {children}

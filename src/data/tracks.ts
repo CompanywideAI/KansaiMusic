@@ -261,7 +261,7 @@ export const tracks: Track[] = [
     story:
       "Cute, absurd, and full of commuter-life energy, this track leans into novelty pop without losing the catalog's sense of curation.",
     coverImage: cover("Capybara-Rush-Hour.webp"),
-    audioSrc: audio("Capybara-Rush-Hour.mp3"),
+    audioSrc: audio("Capybara-Rush Hour.mp3"),
     credits: defaultCredits,
   },
   {
