@@ -27,13 +27,20 @@ export default function VideosPage() {
           metadata-free lazy loading until a listener chooses to play.
         </p>
       </div>
-      <Suspense fallback={<p className="text-muted">Loading videos...</p>}>
-        <div className="grid gap-6 lg:grid-cols-2">
-          {videos.map((track) => (
-            <VideoCard key={track.slug} track={track} />
-          ))}
+      {videos.length > 0 ? (
+        <Suspense fallback={<p className="text-muted">Loading videos...</p>}>
+          <div className="grid gap-6 lg:grid-cols-2">
+            {videos.map((track) => (
+              <VideoCard key={track.slug} track={track} />
+            ))}
+          </div>
+        </Suspense>
+      ) : (
+        <div className="rounded-[8px] border border-border bg-panel/72 p-6 text-muted">
+          Lyric videos and visualizers are not published yet. The music catalog is live now, and this
+          page is ready for MP4 releases when they are added.
         </div>
-      </Suspense>
+      )}
     </section>
   );
 }

@@ -80,11 +80,17 @@ export default function HomePage() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Videos</p>
             <h2 className="mt-3 font-display text-4xl sm:text-5xl">Lyric videos and visualizers.</h2>
           </div>
-          <div className="grid gap-6 lg:grid-cols-2">
-            {videos.map((track) => (
-              <VideoCard key={track.slug} track={track} />
-            ))}
-          </div>
+          {videos.length > 0 ? (
+            <div className="grid gap-6 lg:grid-cols-2">
+              {videos.map((track) => (
+                <VideoCard key={track.slug} track={track} />
+              ))}
+            </div>
+          ) : (
+            <div className="rounded-[8px] border border-border bg-panel/72 p-6 text-muted">
+              Lyric videos and visualizers will appear here as they are released.
+            </div>
+          )}
         </div>
       </section>
 
