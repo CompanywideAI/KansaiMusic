@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const songOfDay = getSongOfDay();
+  const featuredTracks = tracks.filter((track) => track.featured).slice(0, 6);
   const videos = tracks.filter((track) => track.videoSrc).slice(0, 2);
   const socialLinks = [
     ["Instagram", process.env.NEXT_PUBLIC_INSTAGRAM_URL, Instagram],
@@ -71,7 +72,7 @@ export default function HomePage() {
             All tracks <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
-        <TrackGrid tracks={tracks.slice(0, 6)} priorityFirst />
+        <TrackGrid tracks={featuredTracks} priorityFirst />
       </section>
 
       <section className="border-y border-border bg-panel/38 py-16">
