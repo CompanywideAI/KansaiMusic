@@ -36,7 +36,7 @@ Import the repository in Vercel and deploy with the default Next.js settings. No
 Recommended environment variables:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://www.kansaimusic.com
+NEXT_PUBLIC_SITE_URL=https://kansaimusic.com
 NEXT_PUBLIC_INSTAGRAM_URL=https://www.instagram.com/kansaimusic
 NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/KansaiMusic/
 NEXT_PUBLIC_TIKTOK_URL=

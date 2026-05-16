@@ -25,10 +25,22 @@ export function ShareLinks({ track, url }: { track: Track; url: string }) {
         <Copy className="h-4 w-4" />
         {copied ? "Copied" : "Copy link"}
       </button>
-      <a className="focus-ring rounded-full border border-border p-2.5 text-muted hover:border-accent hover:text-foreground" href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${text}`} aria-label="Share on X">
+      <a
+        className="focus-ring rounded-full border border-border p-2.5 text-muted hover:border-accent hover:text-foreground"
+        href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${text}`}
+        aria-label="Share on X"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Twitter className="h-4 w-4" />
       </a>
-      <a className="focus-ring rounded-full border border-border p-2.5 text-muted hover:border-accent hover:text-foreground" href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} aria-label="Share on Facebook">
+      <a
+        className="focus-ring rounded-full border border-border p-2.5 text-muted hover:border-accent hover:text-foreground"
+        href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
+        aria-label="Share on Facebook"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Facebook className="h-4 w-4" />
       </a>
       <a className="focus-ring rounded-full border border-border p-2.5 text-muted hover:border-accent hover:text-foreground" href={`mailto:?subject=${text}&body=${encodedUrl}`} aria-label="Share by email">

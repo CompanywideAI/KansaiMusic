@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function siteUrl(path = "") {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://www.kansaimusic.com";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://kansaimusic.com";
   return new URL(path, base).toString();
 }
 
