@@ -23,7 +23,17 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const songOfDay = getSongOfDay();
-  const featuredTracks = tracks.filter((track) => track.featured).slice(0, 6);
+  const featuredTrackOrder = [
+    "brittany-a-mascalucia",
+    "all-american-cowboy",
+    "hollywoods-burning",
+    "good-day-coming-on",
+    "satisfied-in-him",
+    "disaster-the-uber-back-song",
+  ];
+  const featuredTracks = featuredTrackOrder
+    .map((slug) => tracks.find((track) => track.slug === slug))
+    .filter((track) => track !== undefined);
   const videos = tracks.filter((track) => track.videoSrc).slice(0, 2);
   const socialLinks = [
     ["Instagram", process.env.NEXT_PUBLIC_INSTAGRAM_URL, Instagram],
