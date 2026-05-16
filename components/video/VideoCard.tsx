@@ -4,6 +4,10 @@ import { PlayCircle } from "lucide-react";
 import { Track } from "@/src/data/tracks";
 
 export function VideoCard({ track }: { track: Track }) {
+  const youtubeSrc = track.youtubeVideoId
+    ? `https://www.youtube.com/embed/${track.youtubeVideoId}`
+    : undefined;
+
   return (
     <article className="overflow-hidden rounded-[8px] border border-border bg-panel/76 shadow-[var(--shadow)]">
       <Link href={`/music/${track.slug}`} className="focus-ring group block">
@@ -25,7 +29,17 @@ export function VideoCard({ track }: { track: Track }) {
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">{track.sessionLabel}</p>
         <h2 className="mt-3 font-display text-3xl">{track.title}</h2>
         <p className="mt-3 text-sm leading-6 text-muted">{track.description}</p>
-        {track.videoSrc ? (
+        {youtubeSrc ? (
+          <iframe
+            className="mt-5 aspect-video w-full rounded-[6px] border border-border bg-black"
+            src={youtubeSrc}
+            title={`${track.title} lyric video`}
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : track.videoSrc ? (
           <video
             className="mt-5 aspect-video w-full rounded-[6px] border border-border bg-black"
             controls

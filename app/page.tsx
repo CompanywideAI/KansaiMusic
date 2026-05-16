@@ -43,7 +43,7 @@ export default function HomePage() {
   const featuredTracks = featuredTrackOrder
     .map((slug) => tracks.find((track) => track.slug === slug))
     .filter((track) => track !== undefined);
-  const videos = tracks.filter((track) => track.videoSrc).slice(0, 2);
+  const videos = tracks.filter((track) => track.videoSrc || track.youtubeVideoId).slice(0, 2);
   const socialLinks = [
     ["Instagram", socialUrls.instagram, Instagram],
     ["Facebook", socialUrls.facebook, Facebook],

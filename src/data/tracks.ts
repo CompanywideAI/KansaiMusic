@@ -31,6 +31,7 @@ export type Track = {
   audioSrc: string;
   videoSrc?: string;
   videoPoster?: string;
+  youtubeVideoId?: string;
   credits?: {
     lyrics?: string;
     creativeDirection?: string;
@@ -84,6 +85,7 @@ export const tracks: Track[] = [
       "Playful, catchy, and full of Mediterranean party flavor, this Sicilia session uses comedy and local color as the story engine while keeping the vocal presentation framed as a session, not a fictional performer biography.",
     coverImage: cover("Brittany-a-Mascalucia.webp"),
     audioSrc: audio("Brittany-a-Mascalucia.mp3"),
+    youtubeVideoId: "Iw3kaXv2c9o",
     credits: defaultCredits,
   },
   {

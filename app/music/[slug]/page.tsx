@@ -58,6 +58,9 @@ export default async function SongDetailPage({ params }: Props) {
 
   const relatedTracks = getRelatedTracks(track);
   const trackUrl = siteUrl(`/music/${track.slug}`);
+  const youtubeSrc = track.youtubeVideoId
+    ? `https://www.youtube.com/embed/${track.youtubeVideoId}`
+    : undefined;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MusicRecording",
@@ -130,6 +133,19 @@ export default async function SongDetailPage({ params }: Props) {
                 <source src={track.videoSrc} type="video/mp4" />
                 Your browser does not support video playback.
               </video>
+            </div>
+          ) : youtubeSrc ? (
+            <div>
+              <h2 className="mb-4 font-display text-3xl">Lyric video</h2>
+              <iframe
+                className="aspect-video w-full rounded-[8px] border border-border bg-black"
+                src={youtubeSrc}
+                title={`${track.title} lyric video`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
             </div>
           ) : null}
           <article>

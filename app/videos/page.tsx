@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 };
 
 export default function VideosPage() {
-  const videos = tracks.filter((track) => track.videoSrc);
+  const videos = tracks.filter((track) => track.videoSrc || track.youtubeVideoId);
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
