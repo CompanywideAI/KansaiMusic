@@ -4,10 +4,10 @@ import { tracks } from "@/src/data/tracks";
 
 export const metadata: Metadata = {
   title: "Music",
-  description: "Browse Gintz Music tracks by session, mood, and release.",
+  description: "Browse Kansai Music tracks by session, mood, and release.",
   alternates: { canonical: "/music" },
   openGraph: {
-    title: "Music | Gintz Music",
+    title: "Music | Kansai Music",
     description: "Browse original songs, vocal sessions, lyric excerpts, and audio previews.",
     url: "/music",
   },
@@ -20,7 +20,7 @@ export default function MusicPage() {
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Catalog</p>
         <h1 className="mt-4 font-display text-5xl leading-tight sm:text-6xl">Music</h1>
         <p className="mt-5 text-lg leading-8 text-muted">
-          Browse the current Gintz Music sessions by vocal character, mood, and story. Each track is
+          Browse the current Kansai Music sessions by vocal character, mood, and story. Each track is
           defined in a local data file so the catalog can grow cleanly.
         </p>
       </div>

@@ -17,11 +17,13 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+const previewImage = "https://media.kansaimusic.com/images/covers/Brittany-a-Mascalucia.webp";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: {
-    default: "Gintz Music",
-    template: "%s | Gintz Music",
+    default: "Kansai Music",
+    template: "%s | Kansai Music",
   },
   description:
     "Original lyrics, story-driven songwriting, vocal character, and human-directed, AI-assisted production.",
@@ -29,19 +31,19 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Gintz Music",
+    title: "Kansai Music",
     description:
       "Songs from somewhere between memory and signal. Original lyrics, human direction, AI-assisted production.",
     url: "/",
-    siteName: "Gintz Music",
+    siteName: "Kansai Music",
     type: "website",
-    images: [{ url: "/images/covers/after-the-last-train.svg", width: 1200, height: 1200 }],
+    images: [{ url: previewImage, width: 1200, height: 1200 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gintz Music",
+    title: "Kansai Music",
     description: "Original lyrics. Human direction. AI-assisted production.",
-    images: ["/images/covers/after-the-last-train.svg"],
+    images: [previewImage],
   },
   icons: {
     icon: "/favicon.svg",
@@ -56,7 +58,7 @@ export default function RootLayout({
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "MusicGroup",
-    name: "Gintz Music",
+    name: "Kansai Music",
     url: siteUrl(),
     description:
       "A human-directed music project built around original lyrics, vocal character, and AI-assisted production.",
@@ -70,7 +72,12 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" data-theme="dark" className={`${inter.variable} ${playfair.variable}`}>
+    <html
+      lang="en"
+      data-theme="dark"
+      data-scroll-behavior="smooth"
+      className={`${inter.variable} ${playfair.variable}`}
+    >
       <body>
         <script
           type="application/ld+json"

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Songs from somewhere between memory and signal. Original lyrics, human direction, and AI-assisted production.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Gintz Music",
+    title: "Kansai Music",
     description:
       "Original lyrics, story-driven songwriting, vocal character, and human-directed, AI-assisted production.",
     url: "/",
@@ -44,7 +44,7 @@ export default function HomePage() {
               Songs from somewhere between memory and signal.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/74">
-              Gintz Music is a human-directed music project built around original lyrics,
+              Kansai Music is a human-directed music project built around original lyrics,
               vocal character, and AI-assisted production.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -134,7 +134,7 @@ export default function HomePage() {
         <div className="grid gap-6">
           <NewsletterSignup />
           <div className="rounded-[8px] border border-border bg-panel/75 p-6">
-            <h2 className="font-display text-3xl">Follow Gintz Music</h2>
+            <h2 className="font-display text-3xl">Follow Kansai Music</h2>
             <div className="mt-5 flex flex-wrap gap-2">
               {socialLinks.map(([label, href, Icon]) =>
                 href ? (

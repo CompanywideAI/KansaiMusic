@@ -5,11 +5,11 @@ import { tracks } from "@/src/data/tracks";
 
 export const metadata: Metadata = {
   title: "Videos",
-  description: "Lyric videos and visualizers from Gintz Music sessions.",
+  description: "Lyric videos and visualizers from Kansai Music sessions.",
   alternates: { canonical: "/videos" },
   openGraph: {
-    title: "Videos | Gintz Music",
-    description: "A gallery of lyric videos and visualizers for Gintz Music songs.",
+    title: "Videos | Kansai Music",
+    description: "A gallery of lyric videos and visualizers for Kansai Music songs.",
     url: "/videos",
   },
 };

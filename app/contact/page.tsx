@@ -3,11 +3,11 @@ import { ContactCTA } from "@/components/marketing/ContactCTA";
 
 export const metadata: Metadata = {
   title: "Contact / Licensing",
-  description: "Contact Gintz Music for general, licensing, sync, playlist, or collaboration inquiries.",
+  description: "Contact Kansai Music for general, licensing, sync, playlist, or collaboration inquiries.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact / Licensing | Gintz Music",
-    description: "Reach Gintz Music for licensing, sync, playlist, or collaboration inquiries.",
+    title: "Contact / Licensing | Kansai Music",
+    description: "Reach Kansai Music for licensing, sync, playlist, or collaboration inquiries.",
     url: "/contact",
   },
 };

@@ -7,7 +7,7 @@ import { Track } from "@/src/data/tracks";
 export function ShareLinks({ track, url }: { track: Track; url: string }) {
   const [copied, setCopied] = useState(false);
   const encodedUrl = encodeURIComponent(url);
-  const text = encodeURIComponent(`Listen to ${track.title} by Gintz Music`);
+  const text = encodeURIComponent(`Listen to ${track.title} by Kansai Music`);
 
   async function copyLink() {
     await navigator.clipboard.writeText(url);

@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "media.gintzmusic.com",
+        hostname: "media.kansaimusic.com",
         pathname: "/images/covers/**",
       },
     ],

@@ -21,7 +21,7 @@ export function TrackCard({ track, priority = false }: { track: Track; priority?
           <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-gradient-to-t from-black/72 to-transparent p-4 text-white">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/13 px-3 py-1 text-xs font-semibold backdrop-blur">
               <Play className="h-3.5 w-3.5" />
-              {track.runtime}
+              {track.runtime ?? "Listen"}
             </span>
             <ArrowUpRight className="h-5 w-5 opacity-80" />
           </div>

@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: track.description,
     alternates: { canonical: `/music/${track.slug}` },
     openGraph: {
-      title: `${track.title} | Gintz Music`,
+      title: `${track.title} | Kansai Music`,
       description: track.description,
       url: `/music/${track.slug}`,
       type: "music.song",
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${track.title} | Gintz Music`,
+      title: `${track.title} | Kansai Music`,
       description: track.description,
       images: [track.coverImage],
     },
@@ -66,7 +66,7 @@ export default async function SongDetailPage({ params }: Props) {
     duration: track.runtime,
     byArtist: {
       "@type": "MusicGroup",
-      name: "Gintz Music",
+      name: "Kansai Music",
     },
     genre: [track.primaryGenre, ...track.secondaryStyles],
     description: track.description,
@@ -176,7 +176,7 @@ export default async function SongDetailPage({ params }: Props) {
               ) : null}
               <div>
                 <dt className="text-muted">Creative direction</dt>
-                <dd className="mt-1 font-semibold">{track.credits?.creativeDirection || "Gintz Music"}</dd>
+                <dd className="mt-1 font-semibold">{track.credits?.creativeDirection || "Kansai Music"}</dd>
               </div>
               <div>
                 <dt className="text-muted">Production</dt>

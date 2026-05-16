@@ -3,6 +3,7 @@ export type Session =
   | "country"
   | "gospel"
   | "duet"
+  | "hollywood"
   | "emi"
   | "osaka"
   | "milo";
@@ -44,8 +45,8 @@ export type Track = {
   };
 };
 
-const audioBase = "https://media.gintzmusic.com/audio/distribution";
-const imageBase = "https://media.gintzmusic.com/images/covers";
+const audioBase = "https://media.kansaimusic.com/audio/distribution";
+const imageBase = "https://media.kansaimusic.com/images/covers";
 
 function audio(file: string) {
   return `${audioBase}/${file}`;
@@ -56,7 +57,7 @@ function cover(file: string) {
 }
 
 const defaultCredits = {
-  creativeDirection: "Gintz Music",
+  creativeDirection: "Kansai Music",
   production: "Human-directed, AI-assisted production",
 };
 
@@ -152,6 +153,28 @@ export const tracks: Track[] = [
       "Built around small moments, morning walks, everyday grace, and the feeling that things might just turn out alright, this duet session keeps the emotional target simple and direct.",
     coverImage: cover("Good-Day-Coming-On.webp"),
     audioSrc: audio("Good-Day-Coming-On.mp3"),
+    credits: defaultCredits,
+  },
+  {
+    slug: "hollywoods-burning",
+    title: "Hollywood's Burning",
+    session: "hollywood",
+    sessionLabel: "The Hollywood Sessions",
+    album: "The Hollywood Sessions",
+    genre: "Glam Metal",
+    primaryGenre: "Glam Metal",
+    secondaryStyles: ["Rock", "Hair Metal", "Hard Rock"],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-05-15",
+    moods: ["Glam Metal", "Rock", "Hard Rock"],
+    hook: "A loud Hollywood session built on Sunset Strip flash, big choruses, and neon guitar heat.",
+    description:
+      "An homage to the 1980s era of big hair bands, glam metal, hard rock, and the Sunset Strip in Hollywood.",
+    story:
+      "The Hollywood Sessions channel the theatrical side of rock: oversized hooks, electric swagger, and the memory of a scene where the guitars were loud, the lights were bright, and subtlety stayed outside the club door.",
+    coverImage: cover("Hollywood-Is-Burning.webp"),
+    audioSrc: audio("Hollywood-Is-Burning.mp3"),
     credits: defaultCredits,
   },
   {
@@ -405,6 +428,7 @@ export const sessions = [
   { key: "country", label: "Country", title: "The Country Sessions" },
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
   { key: "duet", label: "Milo & Emi", title: "Milo & Emi Sessions" },
+  { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
   { key: "milo", label: "Milo", title: "The Milo Sessions" },
@@ -426,6 +450,9 @@ export const moods = [
   "Nostalgic",
   "Feel-Good",
   "Funk Pop",
+  "Glam Metal",
+  "Rock",
+  "Hard Rock",
 ] as const;
 
 export function getTrack(slug: string) {

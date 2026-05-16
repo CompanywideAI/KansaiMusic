@@ -1,6 +1,6 @@
-# Gintz Music
+# Kansai Music
 
-A premium music website for Gintz Music, a human-directed, AI-assisted music project built around original lyrics, story-driven songwriting, vocal character, and carefully shaped production.
+A premium music website for Kansai Music, a human-directed, AI-assisted music project built around original lyrics, story-driven songwriting, vocal character, and carefully shaped production.
 
 ## Tech Stack
 
@@ -36,13 +36,13 @@ Import the repository in Vercel and deploy with the default Next.js settings. No
 Recommended environment variables:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=
+NEXT_PUBLIC_SITE_URL=https://www.kansaimusic.com
 NEXT_PUBLIC_INSTAGRAM_URL=
 NEXT_PUBLIC_TIKTOK_URL=
 NEXT_PUBLIC_YOUTUBE_URL=
 NEXT_PUBLIC_SPOTIFY_URL=
 NEXT_PUBLIC_APPLE_MUSIC_URL=
-CONTACT_EMAIL=hello@gintzmusic.com
+CONTACT_EMAIL=hello@kansaimusic.com
 ```
 
 The site runs without these variables; they are placeholders for production links and future integrations.
@@ -54,8 +54,8 @@ Edit `src/data/tracks.ts` and add a new `Track` object:
 - `slug` controls the URL at `/music/[slug]`
 - `session` controls filtering
 - `moods` controls mood filters
-- `coverImage` should point to `/public/images/covers`
-- `audioSrc` should point to `/public/audio`
+- `coverImage` should use the CloudFront cover path configured in `src/data/tracks.ts`
+- `audioSrc` should use the CloudFront audio path configured in `src/data/tracks.ts`
 - `videoSrc` and `videoPoster` are optional
 - `streamingLinks` can be filled in later without changing the page code
 
@@ -64,9 +64,9 @@ Use session language such as “session,” “voice,” “vocal character,” 
 ## Asset Locations
 
 - Logos: `public/images/logos`
-- Cover art: `public/images/covers`
+- Cover art: `https://media.kansaimusic.com/images/covers`
 - Video posters: `public/images/posters`
-- Audio files: `public/audio`
+- Audio files: `https://media.kansaimusic.com/audio/distribution`
 - Lyric videos / visualizers: `public/videos`
 
 The `Logo` component supports:

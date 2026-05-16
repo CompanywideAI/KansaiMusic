@@ -3,19 +3,19 @@ import { DisclosureNote } from "@/components/music/DisclosureNote";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "What Gintz Music is, how the songs are made, and what human-directed means.",
+  description: "What Kansai Music is, how the songs are made, and what human-directed means.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About | Gintz Music",
-    description: "A transparent look at the human-directed, AI-assisted Gintz Music process.",
+    title: "About | Kansai Music",
+    description: "A transparent look at the human-directed, AI-assisted Kansai Music process.",
     url: "/about",
   },
 };
 
 const sections = [
   {
-    title: "What is Gintz Music?",
-    body: "Gintz Music is a human-directed music project built around original lyrics, story-driven songwriting, vocal character, and AI-assisted production. The songs are the center of the project: scenes, hooks, emotional turns, and recordings shaped to feel worth returning to.",
+    title: "What is Kansai Music?",
+    body: "Kansai Music is a human-directed music project built around original lyrics, story-driven songwriting, vocal character, and AI-assisted production. The songs are the center of the project: scenes, hooks, emotional turns, and recordings shaped to feel worth returning to.",
   },
   {
     title: "How the songs are made",
@@ -31,7 +31,7 @@ const sections = [
   },
   {
     title: "What not to assume",
-    body: "Session names such as Milo or Emi are used for vocal character and catalog organization. They should not be read as claims that traditional human vocalists performed every part, and Gintz Music does not invent performer biographies around those names.",
+    body: "Session names such as Milo or Emi are used for vocal character and catalog organization. They should not be read as claims that traditional human vocalists performed every part, and Kansai Music does not invent performer biographies around those names.",
   },
 ];
 
