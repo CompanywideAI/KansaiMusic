@@ -8,6 +8,7 @@ import { VideoCard } from "@/components/video/VideoCard";
 import { NewsletterSignup } from "@/components/marketing/NewsletterSignup";
 import { MotionReveal } from "@/components/marketing/MotionReveal";
 import { getSongOfDay, sessions, tracks } from "@/src/data/tracks";
+import { defaultShareImage, shareImage } from "@/src/lib/seo";
 
 export const metadata: Metadata = {
   description:
@@ -18,6 +19,13 @@ export const metadata: Metadata = {
     description:
       "Original lyrics, story-driven songwriting, vocal character, and human-directed, AI-assisted production.",
     url: "/",
+    images: shareImage(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kansai Music",
+    description: "Songs from somewhere between memory and signal.",
+    images: [defaultShareImage],
   },
 };
 

@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { defaultShareImage, shareImage } from "@/src/lib/seo";
 import { siteUrl } from "@/src/lib/utils";
 
 const inter = Inter({
@@ -16,8 +17,6 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
   display: "swap",
 });
-
-const previewImage = "https://media.kansaimusic.com/images/covers/Brittany-a-Mascalucia.webp";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -37,13 +36,13 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Kansai Music",
     type: "website",
-    images: [{ url: previewImage, width: 1200, height: 1200 }],
+    images: shareImage(),
   },
   twitter: {
     card: "summary_large_image",
     title: "Kansai Music",
     description: "Original lyrics. Human direction. AI-assisted production.",
-    images: [previewImage],
+    images: [defaultShareImage],
   },
   icons: {
     icon: "/favicon.svg",

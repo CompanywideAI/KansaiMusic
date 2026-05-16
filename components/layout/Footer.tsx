@@ -28,6 +28,7 @@ export function Footer() {
             <Link href="/videos" className="hover:text-foreground">Videos</Link>
             <Link href="/about" className="hover:text-foreground">About</Link>
             <Link href="/contact" className="hover:text-foreground">Contact / Licensing</Link>
+            <Link href="/copyright" className="hover:text-foreground">Copyright & Usage</Link>
           </div>
         </div>
         <div>

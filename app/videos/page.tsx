@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { VideoCard } from "@/components/video/VideoCard";
 import { tracks } from "@/src/data/tracks";
+import { defaultShareImage, shareImage } from "@/src/lib/seo";
 
 export const metadata: Metadata = {
   title: "Videos",
@@ -11,6 +12,13 @@ export const metadata: Metadata = {
     title: "Videos | Kansai Music",
     description: "A gallery of lyric videos and visualizers for Kansai Music songs.",
     url: "/videos",
+    images: shareImage(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Videos | Kansai Music",
+    description: "A gallery of lyric videos and visualizers for Kansai Music songs.",
+    images: [defaultShareImage],
   },
 };
 

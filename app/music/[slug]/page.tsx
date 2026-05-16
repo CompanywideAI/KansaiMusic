@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: track.description,
       url: `/music/${track.slug}`,
       type: "music.song",
-      images: [{ url: track.coverImage, width: 1200, height: 1200 }],
+      images: [{ url: track.coverImage, width: 1200, height: 1200, alt: `${track.title} cover artwork` }],
     },
     twitter: {
       card: "summary_large_image",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DisclosureNote } from "@/components/music/DisclosureNote";
+import { defaultShareImage, shareImage } from "@/src/lib/seo";
 
 export const metadata: Metadata = {
   title: "About",
@@ -9,6 +10,13 @@ export const metadata: Metadata = {
     title: "About | Kansai Music",
     description: "A transparent look at the human-directed, AI-assisted Kansai Music process.",
     url: "/about",
+    images: shareImage(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About | Kansai Music",
+    description: "A transparent look at the human-directed, AI-assisted Kansai Music process.",
+    images: [defaultShareImage],
   },
 };
 

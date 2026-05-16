@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { TrackFilters } from "@/components/music/TrackFilters";
 import { tracks } from "@/src/data/tracks";
+import { defaultShareImage, shareImage } from "@/src/lib/seo";
 
 export const metadata: Metadata = {
   title: "Music",
@@ -10,6 +11,13 @@ export const metadata: Metadata = {
     title: "Music | Kansai Music",
     description: "Browse original songs, vocal sessions, lyric excerpts, and audio previews.",
     url: "/music",
+    images: shareImage(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Music | Kansai Music",
+    description: "Browse original songs, vocal sessions, lyric excerpts, and audio previews.",
+    images: [defaultShareImage],
   },
 };
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ContactCTA } from "@/components/marketing/ContactCTA";
+import { defaultShareImage, shareImage } from "@/src/lib/seo";
 
 export const metadata: Metadata = {
   title: "Contact / Licensing",
@@ -9,6 +10,13 @@ export const metadata: Metadata = {
     title: "Contact / Licensing | Kansai Music",
     description: "Reach Kansai Music for licensing, sync, playlist, or collaboration inquiries.",
     url: "/contact",
+    images: shareImage(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact / Licensing | Kansai Music",
+    description: "Reach Kansai Music for licensing, sync, playlist, or collaboration inquiries.",
+    images: [defaultShareImage],
   },
 };
 
