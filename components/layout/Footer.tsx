@@ -1,13 +1,15 @@
 import Link from "next/link";
-import { Instagram, Music2, PlayCircle, Youtube } from "lucide-react";
+import { Facebook, Instagram, Music2, PlayCircle, Youtube } from "lucide-react";
 import { Logo } from "@/components/layout/Logo";
+import { socialUrls } from "@/src/lib/social";
 import { contactEmail } from "@/src/lib/utils";
 
 const socialLinks = [
-  { label: "Instagram", href: process.env.NEXT_PUBLIC_INSTAGRAM_URL, icon: Instagram },
-  { label: "TikTok", href: process.env.NEXT_PUBLIC_TIKTOK_URL, icon: Music2 },
-  { label: "YouTube", href: process.env.NEXT_PUBLIC_YOUTUBE_URL, icon: Youtube },
-  { label: "Spotify", href: process.env.NEXT_PUBLIC_SPOTIFY_URL, icon: PlayCircle },
+  { label: "Instagram", href: socialUrls.instagram, icon: Instagram },
+  { label: "Facebook", href: socialUrls.facebook, icon: Facebook },
+  { label: "YouTube", href: socialUrls.youtube, icon: Youtube },
+  { label: "TikTok", href: socialUrls.tiktok, icon: Music2 },
+  { label: "Spotify", href: socialUrls.spotify, icon: PlayCircle },
 ];
 
 export function Footer() {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Instagram, Music2, PlayCircle, Youtube } from "lucide-react";
+import { ArrowRight, Facebook, Instagram, Music2, PlayCircle, Youtube } from "lucide-react";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { FeaturedTrack } from "@/components/music/FeaturedTrack";
 import { TrackGrid } from "@/components/music/TrackGrid";
@@ -9,6 +9,7 @@ import { NewsletterSignup } from "@/components/marketing/NewsletterSignup";
 import { MotionReveal } from "@/components/marketing/MotionReveal";
 import { getSongOfDay, sessions, tracks } from "@/src/data/tracks";
 import { defaultShareImage, shareImage } from "@/src/lib/seo";
+import { socialUrls } from "@/src/lib/social";
 
 export const metadata: Metadata = {
   description:
@@ -44,10 +45,11 @@ export default function HomePage() {
     .filter((track) => track !== undefined);
   const videos = tracks.filter((track) => track.videoSrc).slice(0, 2);
   const socialLinks = [
-    ["Instagram", process.env.NEXT_PUBLIC_INSTAGRAM_URL, Instagram],
-    ["TikTok", process.env.NEXT_PUBLIC_TIKTOK_URL, Music2],
-    ["YouTube", process.env.NEXT_PUBLIC_YOUTUBE_URL, Youtube],
-    ["Spotify / Apple Music", process.env.NEXT_PUBLIC_SPOTIFY_URL || process.env.NEXT_PUBLIC_APPLE_MUSIC_URL, PlayCircle],
+    ["Instagram", socialUrls.instagram, Instagram],
+    ["Facebook", socialUrls.facebook, Facebook],
+    ["YouTube", socialUrls.youtube, Youtube],
+    ["TikTok", socialUrls.tiktok, Music2],
+    ["Spotify / Apple Music", socialUrls.spotify || socialUrls.appleMusic, PlayCircle],
   ] as const;
 
   return (

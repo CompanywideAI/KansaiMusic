@@ -37,9 +37,10 @@ Recommended environment variables:
 
 ```bash
 NEXT_PUBLIC_SITE_URL=https://www.kansaimusic.com
-NEXT_PUBLIC_INSTAGRAM_URL=
+NEXT_PUBLIC_INSTAGRAM_URL=https://www.instagram.com/kansaimusic
+NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/KansaiMusic/
 NEXT_PUBLIC_TIKTOK_URL=
-NEXT_PUBLIC_YOUTUBE_URL=
+NEXT_PUBLIC_YOUTUBE_URL=https://www.youtube.com/@kansaimusic
 NEXT_PUBLIC_SPOTIFY_URL=
 NEXT_PUBLIC_APPLE_MUSIC_URL=
 CONTACT_EMAIL=hello@kansaimusic.com

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { defaultShareImage, shareImage } from "@/src/lib/seo";
+import { officialSocialUrls } from "@/src/lib/social";
 import { siteUrl } from "@/src/lib/utils";
 
 const inter = Inter({
@@ -61,13 +62,7 @@ export default function RootLayout({
     url: siteUrl(),
     description:
       "A human-directed music project built around original lyrics, vocal character, and AI-assisted production.",
-    sameAs: [
-      process.env.NEXT_PUBLIC_INSTAGRAM_URL,
-      process.env.NEXT_PUBLIC_TIKTOK_URL,
-      process.env.NEXT_PUBLIC_YOUTUBE_URL,
-      process.env.NEXT_PUBLIC_SPOTIFY_URL,
-      process.env.NEXT_PUBLIC_APPLE_MUSIC_URL,
-    ].filter(Boolean),
+    sameAs: officialSocialUrls(),
   };
 
   return (
