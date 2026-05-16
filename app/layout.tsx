@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { defaultShareImage, shareImage } from "@/src/lib/seo";
@@ -18,6 +19,8 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
   display: "swap",
 });
+
+const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-KT5NGVS1JT";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -80,6 +83,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <GoogleAnalytics measurementId={googleAnalyticsId} />
       </body>
     </html>
   );
