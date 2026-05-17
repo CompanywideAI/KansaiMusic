@@ -177,6 +177,7 @@ export const tracks: Track[] = [
       "The Hollywood Sessions channel the theatrical side of rock: oversized hooks, electric swagger, and the memory of a scene where the guitars were loud, the lights were bright, and subtlety stayed outside the club door.",
     coverImage: cover("Hollywood-Is-Burning.webp"),
     audioSrc: audio("Hollywood-Is-Burning.mp3"),
+    youtubeVideoId: "7pgZfCxQuYQ",
     credits: defaultCredits,
   },
   {
