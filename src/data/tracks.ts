@@ -4,6 +4,7 @@ export type Session =
   | "gospel"
   | "duet"
   | "hollywood"
+  | "gothic"
   | "emi"
   | "osaka"
   | "milo";
@@ -178,6 +179,35 @@ export const tracks: Track[] = [
     coverImage: cover("Hollywood-Is-Burning.webp"),
     audioSrc: audio("Hollywood-Is-Burning.mp3"),
     youtubeVideoId: "7pgZfCxQuYQ",
+    credits: defaultCredits,
+  },
+  {
+    slug: "vice-and-virtue",
+    title: "Vice and Virtue",
+    session: "gothic",
+    sessionLabel: "The Gothic Sessions",
+    album: "The Gothic Sessions",
+    genre: "Synth-pop",
+    primaryGenre: "Synth-pop",
+    secondaryStyles: [
+      "Gothic",
+      "Rock",
+      "New Wave",
+      "Darkwave",
+      "Alternative Dance",
+      "Industrial Pop",
+    ],
+    languages: ["English"],
+    releaseDate: "2026-05-18",
+    moods: ["Synth-pop", "Gothic", "New Wave", "Darkwave", "Alternative Dance"],
+    hook:
+      "Dark synth-pop with a gothic new wave edge, exploring the tension between innocence, image, and temptation.",
+    description:
+      "A dark synth-pop track with pulsing electronic bass, cold analog textures, and a moody new wave atmosphere.",
+    story:
+      "Set against the glow of a late-night club, Vice and Virtue follows a glamorous fictional figure caught between image, temptation, loneliness, and the struggle to stay true.",
+    coverImage: cover("Vice-And-Virtue.webp"),
+    audioSrc: audio("Vice-And-Virtue.mp3"),
     credits: defaultCredits,
   },
   {
@@ -432,6 +462,7 @@ export const sessions = [
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
   { key: "duet", label: "Milo & Emi", title: "Milo & Emi Sessions" },
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
+  { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
   { key: "milo", label: "Milo", title: "The Milo Sessions" },
@@ -456,6 +487,11 @@ export const moods = [
   "Glam Metal",
   "Rock",
   "Hard Rock",
+  "Synth-pop",
+  "Gothic",
+  "New Wave",
+  "Darkwave",
+  "Alternative Dance",
 ] as const;
 
 export function getTrack(slug: string) {
