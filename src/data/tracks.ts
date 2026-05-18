@@ -208,6 +208,7 @@ export const tracks: Track[] = [
       "Set against the glow of a late-night club, Vice and Virtue follows a glamorous fictional figure caught between image, temptation, loneliness, and the struggle to stay true.",
     coverImage: cover("Vice-And-Virtue.webp"),
     audioSrc: audio("Vice-And-Virtue.mp3"),
+    youtubeVideoId: "xOWkKutS_bA",
     credits: defaultCredits,
   },
   {
