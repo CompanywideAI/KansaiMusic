@@ -24,11 +24,11 @@ export const metadata: Metadata = {
 };
 
 const effectiveDate = "May 16, 2026";
-const legalOwner = "[Legal owner name to be confirmed]";
+const legalOwner = "Kansai Music";
 const contactEmail = "contact@kansaimusic.com";
 const licensingEmail = "licensing@kansaimusic.com";
 const copyrightEmail = "copyright@kansaimusic.com";
-const mailingAddress = "[Mailing address if needed]";
+const mailingAddress = "Los Angeles, California, USA";
 
 const ownedMaterials = [
   "Original songs and musical compositions",
@@ -344,10 +344,6 @@ export default function CopyrightPage() {
               </a>
             ))}
           </div>
-          <p>
-            Placeholder legal details still to confirm: {legalOwner}, {mailingAddress}, and the
-            preferred contact addresses above.
-          </p>
         </Section>
 
         <div className="rounded-[8px] border border-border bg-panel/72 p-6">
