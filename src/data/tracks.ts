@@ -182,6 +182,29 @@ export const tracks: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "seventy-summers",
+    title: "Seventy Summers",
+    session: "hollywood",
+    sessionLabel: "The Hollywood Sessions",
+    album: "The Hollywood Sessions",
+    genre: "Retro Pop",
+    primaryGenre: "Retro Pop",
+    secondaryStyles: ["Indie Pop", "Ska-Pop", "Sophisti-Pop"],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-05-18",
+    moods: ["Retro Pop", "Indie Pop", "Ska-Pop", "Sophisti-Pop", "Feel-Good"],
+    hook:
+      "A sunny retro-pop reflection on growing older, staying grounded, and enjoying the ride.",
+    description:
+      "A witty, upbeat retro-pop song about growing older without taking yourself too seriously.",
+    story:
+      "Built around the idea that, if we are lucky, we only get seventy-something summers, the song balances humor, faith, doubt, love, and everyday wisdom with a sunny singalong feel.",
+    coverImage: cover("Seventy-Summers.webp"),
+    audioSrc: audio("Seventy-Summers.mp3"),
+    credits: defaultCredits,
+  },
+  {
     slug: "vice-and-virtue",
     title: "Vice and Virtue",
     session: "gothic",
@@ -493,6 +516,9 @@ export const moods = [
   "New Wave",
   "Darkwave",
   "Alternative Dance",
+  "Retro Pop",
+  "Ska-Pop",
+  "Sophisti-Pop",
 ] as const;
 
 export function getTrack(slug: string) {

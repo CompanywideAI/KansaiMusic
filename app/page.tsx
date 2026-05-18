@@ -36,13 +36,27 @@ export default function HomePage() {
     "brittany-a-mascalucia",
     "all-american-cowboy",
     "hollywoods-burning",
+    "seventy-summers",
     "good-day-coming-on",
     "satisfied-in-him",
-    "disaster-the-uber-back-song",
   ];
   const featuredTracks = featuredTrackOrder
     .map((slug) => tracks.find((track) => track.slug === slug))
     .filter((track) => track !== undefined);
+  const homepageSessionOrder = [
+    "sicilia",
+    "hollywood",
+    "gothic",
+    "country",
+    "gospel",
+    "duet",
+    "emi",
+    "osaka",
+    "milo",
+  ];
+  const homepageSessions = homepageSessionOrder
+    .map((key) => sessions.find((session) => session.key === key))
+    .filter((session) => session !== undefined);
   const videos = tracks.filter((track) => track.videoSrc || track.youtubeVideoId).slice(0, 2);
   const socialLinks = [
     ["Instagram", socialUrls.instagram, Instagram],
@@ -127,7 +141,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
-            {sessions.slice(0, 5).map((session) => (
+            {homepageSessions.map((session) => (
               <div key={session.key} className="rounded-[8px] border border-border bg-panel/72 p-5">
                 <h3 className="font-display text-2xl">{session.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-muted">
