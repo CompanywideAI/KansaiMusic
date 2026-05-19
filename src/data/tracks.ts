@@ -326,6 +326,28 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "suki-ya-nen",
+    title: "Suki ya nen",
+    session: "osaka",
+    sessionLabel: "The Osaka Sessions",
+    album: "The Osaka Sessions",
+    genre: "R&B",
+    primaryGenre: "R&B",
+    secondaryStyles: ["Soul", "Jazz", "Rhythm and Blues", "Neo-Soul"],
+    languages: ["English", "Japanese", "Osaka dialect"],
+    releaseDate: "2026-05-19",
+    moods: ["R&B", "Soul", "Jazz", "Neo-Soul", "Romantic"],
+    hook:
+      "A smoky Osaka soul-jazz track about finding the one phrase ordinary romance cannot quite say.",
+    description:
+      "A smoky, romantic soul-jazz track built around the Osaka phrase suki ya nen, a warmer, more personal way of saying I like you or I am into you.",
+    story:
+      "Set against the feeling of a late-night train ride, the song blends playful lyricism, vintage R&B atmosphere, and neo-soul smoothness into a cross-cultural love song.",
+    coverImage: cover("Suki-Ya-Nen.webp"),
+    audioSrc: audio("Suki-Ya-Nen.mp3"),
+    credits: defaultCredits,
+  },
+  {
     slug: "capybara-rush-hour",
     title: "カピバラ・ラッシュアワー (Capybara Rush Hour)",
     session: "emi",
@@ -528,6 +550,11 @@ export const moods = [
   "Retro Pop",
   "Ska-Pop",
   "Sophisti-Pop",
+  "R&B",
+  "Soul",
+  "Jazz",
+  "Neo-Soul",
+  "Romantic",
 ] as const;
 
 export function getTrack(slug: string) {
