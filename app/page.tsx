@@ -46,6 +46,7 @@ export default function HomePage() {
   const homepageSessionOrder = [
     "sicilia",
     "hollywood",
+    "london",
     "gothic",
     "country",
     "gospel",

@@ -6,6 +6,7 @@ export type Session =
   | "gospel"
   | "duet"
   | "hollywood"
+  | "london"
   | "gothic"
   | "emi"
   | "osaka"
@@ -186,9 +187,9 @@ const trackCatalog: Track[] = [
   {
     slug: "seventy-summers",
     title: "Seventy Summers",
-    session: "hollywood",
-    sessionLabel: "The Hollywood Sessions",
-    album: "The Hollywood Sessions",
+    session: "london",
+    sessionLabel: "The London Sessions",
+    album: "The London Sessions",
     genre: "Retro Pop",
     primaryGenre: "Retro Pop",
     secondaryStyles: ["Indie Pop", "Ska-Pop", "Sophisti-Pop"],
@@ -493,6 +494,7 @@ export const sessions = [
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
   { key: "duet", label: "Milo & Emi", title: "Milo & Emi Sessions" },
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
+  { key: "london", label: "London", title: "The London Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
