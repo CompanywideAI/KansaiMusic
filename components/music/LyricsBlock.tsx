@@ -4,7 +4,7 @@ export function LyricsBlock({ lyrics }: { lyrics?: string }) {
   }
 
   return (
-    <div className="whitespace-pre-line rounded-[8px] border border-border bg-panel/72 p-6 font-display text-xl leading-9">
+    <div className="whitespace-pre-line rounded-[8px] border border-border bg-panel/72 p-5 text-base leading-8 text-foreground sm:p-6">
       {lyrics}
     </div>
   );

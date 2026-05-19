@@ -1,3 +1,5 @@
+import { lyricsBySlug } from "@/src/data/lyrics";
+
 export type Session =
   | "sicilia"
   | "country"
@@ -63,7 +65,7 @@ const defaultCredits = {
   production: "Human-directed, AI-assisted production",
 };
 
-export const tracks: Track[] = [
+const trackCatalog: Track[] = [
   {
     slug: "brittany-a-mascalucia",
     title: "Brittany a Mascalucia",
@@ -479,6 +481,11 @@ export const tracks: Track[] = [
     credits: defaultCredits,
   },
 ];
+
+export const tracks: Track[] = trackCatalog.map((track) => ({
+  ...track,
+  lyrics: lyricsBySlug[track.slug],
+}));
 
 export const sessions = [
   { key: "sicilia", label: "Sicilia", title: "The Sicilia Sessions" },
