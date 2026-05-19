@@ -397,100 +397,110 @@ Rock on
 Hollywood's still burning`,
 
   "seventy-summers": `[Verse 1]
-We buy into the fictions
-Just to make it through the day
-Trading pixels from our pockets
-For the myths our teachers say
+You only get so many summers
+Before they pass you by
+You only have this day
+Tomorrow hasn't arrived
 
-They tell you when you're older
+They say when you get older
 You'll have it figured out
-But growing up ain't numbers
+But life ain't about certainty
 It's learning to live with doubt
 
 [Pre-Chorus]
-And when I drive myself right up the wall
-That's a dangerous place to park the car
-So I smile through the static, keep the motor warm
-And make a little music out of the storm
+When you're driving yourself crazy
+There's only you to blame
+It's not about directions
+It's choosing the right lane
 
 [Chorus]
 We get seventy-something summers
 On this beautiful merry-go-round
-Don't try to be great
-Write your worries in the sand
+No time to wait for the perfect day
+To work the whole thing out
 
-Be whole, be here
-Keep your feet on the ground
-
-Yeah, the key to life is symmetry
+Yeah, the trick to life is symmetry
 A little tragedy, a little comedy
-If we're lucky, we'll get another spin
+If we're lucky, we get another spin
 So hold on, it's coming round again
 
-[Verse 2]
-Life can't always be champagne
-Or cotton candy in your hand
-But sometimes order the calamari
-Just because you can
+[Post-Chorus]
+Do-do-do, do-do-do
+Coming round again
+Do-do-do, do-do-do
+Seventy summers, my friend
 
-And if I were rich, I'd probably
-Have curly hair too
-But I'd give it all away
-Just to be here with you
+[Verse 2]
+Life ain't always pink champagne
+Or gray skies turning blue
+Sometimes the finest company
+Is the time you spend with you
+
+So throw away the worries
+And the memories that drag you down
+There's no prize for fretting
+When the world keeps spinning round
 
 [Pre-Chorus]
-And when I drive myself right up the wall
-That's a dangerous place to park the car
-So I smile through the static, keep the motor warm
-And make a little music out of the storm
+When you're driving yourself crazy
+There's only you to blame
+It's not about directions
+It's choosing the right lane
 
 [Chorus]
 We get seventy-something summers
 On this beautiful merry-go-round
-Don't try to be great
-Write your worries in the sand
+No time to wait for the perfect day
+To work the whole thing out
 
-Be whole, be here
-Keep your feet on the ground
-
-Yeah, the key to life is symmetry
+Yeah, the trick to life is symmetry
 A little tragedy, a little comedy
-If we're lucky, we'll get another spin
+If we're lucky, we get another spin
 So hold on, it's coming round again
 
 [Bridge]
 Falling down is easy
-Gravity does the work for you
+Gravity does the rest
 But it takes a little backbone
-To stand up like you do
+To get up at your best
 
 Our lives are campfire stories
-God tells His angels late at night
-Some of us tend the fire
-Some carry embers through the night
+God tells His angels at night
+Some dreams disappear like smoke
+Some burn like stars in the sky
+
+[Breakdown]
+[Stripped back piano, bass, soft brushed drums]
+Order the champagne
+Wear the dress, make the plan
+Call the friend you miss
+Take the trip while you can
 
 [Final Chorus]
 We get seventy-something summers
 On this beautiful merry-go-round
-Don't try to be great
-Write your worries in the sand
+No time to wait for the perfect day
+To work the whole thing out
 
-Be whole, be here
-Keep your feet on the ground
-
-Yeah, the key to life is symmetry
+Yeah, the trick to life is symmetry
 A little tragedy, a little comedy
-If we're lucky, we'll get another spin
+If we're lucky, we get another spin
 So hold on, it's coming round again
+
+[Final Post-Chorus]
+Do-do-do, do-do-do
+Coming round again
+Do-do-do, do-do-do
+Seventy summers, my friend
 
 [Outro]
 Seventy-something summers
 On this beautiful merry-go-round
-Be whole, be here
-Keep your feet on the ground
 
-Yeah, order the calamari
-Just because you can`,
+Order the champagne
+Wear the dress, make the plan
+If we're lucky, we get another spin
+And do it all again`,
 
   "vice-and-virtue": `[Intro]
 Vice...
