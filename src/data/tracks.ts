@@ -4,7 +4,6 @@ export type Session =
   | "sicilia"
   | "country"
   | "gospel"
-  | "duet"
   | "hollywood"
   | "london"
   | "gothic"
@@ -141,9 +140,9 @@ const trackCatalog: Track[] = [
   {
     slug: "good-day-coming-on",
     title: "Good Day Coming On",
-    session: "duet",
-    sessionLabel: "Milo & Emi Sessions",
-    album: "Milo & Emi Sessions",
+    session: "milo",
+    sessionLabel: "The Milo Sessions",
+    album: "The Milo Sessions",
     genre: "Pop",
     primaryGenre: "Pop",
     secondaryStyles: ["Feel-Good Pop", "Indie Pop", "Sunshine Pop"],
@@ -152,11 +151,11 @@ const trackCatalog: Track[] = [
     releaseDate: "2026-05-11",
     runtime: "3:18",
     moods: ["Pop", "Indie Pop", "Feel-Good"],
-    hook: "A bright Milo & Emi session for morning walks, lighter hearts, and everyday grace.",
+    hook: "A bright Milo session for morning walks, lighter hearts, and everyday grace.",
     description:
       "An upbeat, optimistic pop song about stepping into the day with a lighter heart.",
     story:
-      "Built around small moments, morning walks, everyday grace, and the feeling that things might just turn out alright, this duet session keeps the emotional target simple and direct.",
+      "Built around small moments, morning walks, everyday grace, and the feeling that things might just turn out alright, this Milo session keeps the emotional target simple and direct.",
     coverImage: cover("Good-Day-Coming-On.webp"),
     audioSrc: audio("Good-Day-Coming-On.mp3"),
     credits: defaultCredits,
@@ -328,9 +327,9 @@ const trackCatalog: Track[] = [
   {
     slug: "suki-ya-nen",
     title: "Suki ya nen",
-    session: "osaka",
-    sessionLabel: "The Osaka Sessions",
-    album: "The Osaka Sessions",
+    session: "london",
+    sessionLabel: "The London Sessions",
+    album: "The London Sessions",
     genre: "R&B",
     primaryGenre: "R&B",
     secondaryStyles: ["Soul", "Jazz", "Rhythm and Blues", "Neo-Soul"],
@@ -514,7 +513,6 @@ export const sessions = [
   { key: "sicilia", label: "Sicilia", title: "The Sicilia Sessions" },
   { key: "country", label: "Country", title: "The Country Sessions" },
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
-  { key: "duet", label: "Milo & Emi", title: "Milo & Emi Sessions" },
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
   { key: "london", label: "London", title: "The London Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },

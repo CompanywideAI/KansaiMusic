@@ -50,7 +50,6 @@ export default function HomePage() {
     "gothic",
     "country",
     "gospel",
-    "duet",
     "emi",
     "osaka",
     "milo",
