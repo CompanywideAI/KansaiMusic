@@ -326,7 +326,7 @@ const trackCatalog: Track[] = [
   },
   {
     slug: "suki-ya-nen",
-    title: "Suki ya nen",
+    title: "Suki ya nen (好きやねん)",
     session: "london",
     sessionLabel: "The London Sessions",
     album: "The London Sessions",
@@ -344,6 +344,7 @@ const trackCatalog: Track[] = [
       "Set against the feeling of a late-night train ride, the song blends playful lyricism, vintage R&B atmosphere, and neo-soul smoothness into a cross-cultural love song.",
     coverImage: cover("Suki-Ya-Nen.webp"),
     audioSrc: audio("Suki-Ya-Nen.mp3"),
+    youtubeVideoId: "2WzhIk2I9g0",
     credits: defaultCredits,
   },
   {
