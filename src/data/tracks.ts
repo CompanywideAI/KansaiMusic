@@ -2,6 +2,7 @@ import { lyricsBySlug } from "@/src/data/lyrics";
 
 export type Session =
   | "sicilia"
+  | "italian"
   | "country"
   | "gospel"
   | "hollywood"
@@ -259,6 +260,36 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "piano-piano-americano",
+    title: "Piano, Piano, Americano",
+    session: "italian",
+    sessionLabel: "The Italian Sessions",
+    album: "The Italian Sessions",
+    genre: "Mediterranean House Pop",
+    primaryGenre: "Mediterranean House Pop",
+    secondaryStyles: ["Dance Pop", "Italian Summer Pop", "Latin House", "Club Pop"],
+    languages: ["English", "Italian"],
+    releaseDate: "2026-05-21",
+    moods: [
+      "Mediterranean House Pop",
+      "Dance Pop",
+      "Italian Summer Pop",
+      "Latin House",
+      "Club Pop",
+      "Comedy Pop",
+    ],
+    hook:
+      "A sunlit Italian Sessions track where culture shock becomes a dance-floor lesson in slowing down.",
+    description:
+      "A playful Mediterranean dance-pop track built around the Italian phrase piano, piano, meaning slowly, easy, or take it easy.",
+    story:
+      "The song follows an American DNA tourist who arrives in Italy expecting instant belonging, only to be lovingly schooled by baristas, waiters, locals, nonnas, and pickpocket warnings. With a chant-ready chorus, Italian expressions, and sunny club-party energy, it turns culture shock into a comic celebration of heritage, humility, and learning to slow down.",
+    coverImage: cover("Piano-Piano-Americano.webp"),
+    audioSrc: audio("Piano-Piano-Americano.mp3"),
+    youtubeVideoId: "DxE9cbXoJ9k",
+    credits: defaultCredits,
+  },
+  {
     slug: "a-prayer-for-the-lost",
     title: "A Prayer for the Lost",
     session: "gospel",
@@ -512,6 +543,7 @@ export const tracks: Track[] = trackCatalog.map((track) => ({
 
 export const sessions = [
   { key: "sicilia", label: "Sicilia", title: "The Sicilia Sessions" },
+  { key: "italian", label: "Italian", title: "The Italian Sessions" },
   { key: "country", label: "Country", title: "The Country Sessions" },
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
@@ -554,6 +586,10 @@ export const moods = [
   "Jazz",
   "Neo-Soul",
   "Romantic",
+  "Mediterranean House Pop",
+  "Italian Summer Pop",
+  "Latin House",
+  "Club Pop",
 ] as const;
 
 export function getTrack(slug: string) {

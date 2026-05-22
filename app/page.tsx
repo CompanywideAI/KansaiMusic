@@ -45,6 +45,7 @@ export default function HomePage() {
     .filter((track) => track !== undefined);
   const homepageSessionOrder = [
     "sicilia",
+    "italian",
     "hollywood",
     "london",
     "gothic",
