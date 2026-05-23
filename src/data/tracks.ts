@@ -205,6 +205,7 @@ const trackCatalog: Track[] = [
       "Built around the idea that, if we are lucky, we only get seventy-something summers, the song balances humor, faith, doubt, love, and everyday wisdom with a sunny singalong feel.",
     coverImage: cover("Seventy-Summers.webp"),
     audioSrc: audio("Seventy-Summers.mp3"),
+    youtubeVideoId: "z5OleNEgw7g",
     credits: defaultCredits,
   },
   {
