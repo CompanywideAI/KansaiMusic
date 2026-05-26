@@ -7,6 +7,7 @@ export type Session =
   | "gospel"
   | "hollywood"
   | "london"
+  | "leeds"
   | "gothic"
   | "emi"
   | "osaka"
@@ -206,6 +207,37 @@ const trackCatalog: Track[] = [
     coverImage: cover("Seventy-Summers.webp"),
     audioSrc: audio("Seventy-Summers.mp3"),
     youtubeVideoId: "z5OleNEgw7g",
+    credits: defaultCredits,
+  },
+  {
+    slug: "love-doesnt-have-to-be-so-hard",
+    title: "Love Doesn't Have to Be So Hard",
+    session: "leeds",
+    sessionLabel: "The Leeds Sessions",
+    album: "The Leeds Sessions",
+    genre: "Modern Acoustic Pop",
+    primaryGenre: "Modern Acoustic Pop",
+    secondaryStyles: ["Soul-Pop", "Adult Contemporary", "Singer-Songwriter"],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-05-26",
+    moods: [
+      "Modern Acoustic Pop",
+      "Soul-Pop",
+      "Adult Contemporary",
+      "Singer-Songwriter",
+      "Romantic",
+      "Reflective",
+    ],
+    hook:
+      "A warm Leeds Sessions love song about steady devotion after decades of ordinary days.",
+    description:
+      "A heartfelt love song about the kind of marriage that lasts beyond first sparks, hard seasons, raising kids, quiet houses, and ordinary days.",
+    story:
+      "Written from the perspective of thirty years together, Love Doesn't Have to Be So Hard celebrates steady devotion, shared history, and the choice to keep coming home to one another. Blending intimate acoustic-pop storytelling with warm soul-pop emotion, the song is a reminder that love does not always need drama to prove its depth.",
+    coverImage: cover("Love-Doesnt-Have-To-Be-So-Hard.webp"),
+    audioSrc: audio("Love-Doesnt-Have-To-Be-So-Hard.mp3"),
+    youtubeVideoId: "AQ0Z7xJRejU",
     credits: defaultCredits,
   },
   {
@@ -549,6 +581,7 @@ export const sessions = [
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
   { key: "london", label: "London", title: "The London Sessions" },
+  { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
@@ -587,10 +620,15 @@ export const moods = [
   "Jazz",
   "Neo-Soul",
   "Romantic",
+  "Reflective",
   "Mediterranean House Pop",
   "Italian Summer Pop",
   "Latin House",
   "Club Pop",
+  "Modern Acoustic Pop",
+  "Soul-Pop",
+  "Adult Contemporary",
+  "Singer-Songwriter",
 ] as const;
 
 export function getTrack(slug: string) {

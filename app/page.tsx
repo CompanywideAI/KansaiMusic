@@ -37,6 +37,7 @@ export default function HomePage() {
     "all-american-cowboy",
     "hollywoods-burning",
     "seventy-summers",
+    "love-doesnt-have-to-be-so-hard",
     "good-day-coming-on",
     "satisfied-in-him",
   ];
@@ -48,6 +49,7 @@ export default function HomePage() {
     "italian",
     "hollywood",
     "london",
+    "leeds",
     "gothic",
     "country",
     "gospel",
