@@ -37,6 +37,7 @@ export default function HomePage() {
     "all-american-cowboy",
     "hollywoods-burning",
     "seventy-summers",
+    "my-brain-goes-boom",
     "love-doesnt-have-to-be-so-hard",
     "good-day-coming-on",
     "satisfied-in-him",

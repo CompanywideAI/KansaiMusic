@@ -210,6 +210,30 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "my-brain-goes-boom",
+    title: "My Brain Goes Boom",
+    session: "london",
+    sessionLabel: "The London Sessions",
+    album: "The London Sessions",
+    genre: "British Retro-Soul",
+    primaryGenre: "British Retro-Soul",
+    secondaryStyles: ["Jazz-Pop", "Vintage R&B", "Soul-Pop"],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-05-28",
+    moods: ["British Retro-Soul", "Jazz-Pop", "Vintage R&B", "Soul-Pop", "Humorous"],
+    hook:
+      "A cheeky London Sessions anxiety anthem where overthinking gets a smoky, soulful groove.",
+    description:
+      "A cheeky British retro-soul anxiety anthem for anyone whose brain keeps replaying old conversations long after the party ended.",
+    story:
+      "With smoky vocals, walking bass, brass stabs, vintage soul harmonies, and a catchy boom, boom hook, My Brain Goes Boom turns overthinking into something funny, soulful, and strangely danceable.",
+    coverImage: cover("My-Brain-Goes-Boom.webp"),
+    audioSrc: audio("My-Brain-Goes-Boom.mp3"),
+    youtubeVideoId: "FFTulJtDVUY",
+    credits: defaultCredits,
+  },
+  {
     slug: "love-doesnt-have-to-be-so-hard",
     title: "Love Doesn't Have to Be So Hard",
     session: "leeds",
@@ -629,6 +653,10 @@ export const moods = [
   "Soul-Pop",
   "Adult Contemporary",
   "Singer-Songwriter",
+  "British Retro-Soul",
+  "Jazz-Pop",
+  "Vintage R&B",
+  "Humorous",
 ] as const;
 
 export function getTrack(slug: string) {
