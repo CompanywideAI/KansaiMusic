@@ -8,6 +8,7 @@ export type Session =
   | "hollywood"
   | "london"
   | "leeds"
+  | "new-orleans"
   | "gothic"
   | "emi"
   | "osaka"
@@ -231,6 +232,44 @@ const trackCatalog: Track[] = [
     coverImage: cover("My-Brain-Goes-Boom.webp"),
     audioSrc: audio("My-Brain-Goes-Boom.mp3"),
     youtubeVideoId: "FFTulJtDVUY",
+    credits: defaultCredits,
+  },
+  {
+    slug: "back-up-your-files",
+    title: "Back Up Your Files",
+    session: "new-orleans",
+    sessionLabel: "The New Orleans Sessions",
+    album: "The New Orleans Sessions",
+    genre: "Blues",
+    primaryGenre: "Blues",
+    secondaryStyles: [
+      "Spoken Word",
+      "Soul Blues",
+      "New Orleans Blues",
+      "Junkyard Gospel",
+      "Alternative Soul",
+      "Cinematic Blues",
+    ],
+    languages: ["English"],
+    releaseDate: "2026-06-03",
+    moods: [
+      "Blues",
+      "Spoken Word",
+      "Soul Blues",
+      "New Orleans Blues",
+      "Junkyard Gospel",
+      "Alternative Soul",
+      "Cinematic Blues",
+      "Reflective",
+    ],
+    hook:
+      "A gritty New Orleans Sessions sermon about backing up your files, and maybe your soul too.",
+    description:
+      "A spoken-word blues track built around one piece of practical advice for the modern age: back up your files, and maybe your soul while you are at it.",
+    story:
+      "With a gritty New Orleans-inspired delivery, crooked barroom piano, upright bass, brushed drums, handclaps, horn stabs, and ragged gospel backing vocals, the song turns digital-age anxiety into a street-corner sermon. It speaks to the pressure of timelines, algorithms, medical bills, career regret, aging bodies, AI, fractured attention, and the quiet human things still holding the world together.",
+    coverImage: cover("Back-Up-Your-Files.webp"),
+    audioSrc: audio("Back-Up-Your-Files.mp3"),
     credits: defaultCredits,
   },
   {
@@ -606,6 +645,7 @@ export const sessions = [
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
   { key: "london", label: "London", title: "The London Sessions" },
   { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
+  { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
@@ -657,6 +697,13 @@ export const moods = [
   "Jazz-Pop",
   "Vintage R&B",
   "Humorous",
+  "Blues",
+  "Spoken Word",
+  "Soul Blues",
+  "New Orleans Blues",
+  "Junkyard Gospel",
+  "Alternative Soul",
+  "Cinematic Blues",
 ] as const;
 
 export function getTrack(slug: string) {

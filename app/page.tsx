@@ -51,6 +51,7 @@ export default function HomePage() {
     "hollywood",
     "london",
     "leeds",
+    "new-orleans",
     "gothic",
     "country",
     "gospel",
