@@ -9,6 +9,7 @@ export type Session =
   | "london"
   | "leeds"
   | "new-orleans"
+  | "tokyo"
   | "gothic"
   | "emi"
   | "osaka"
@@ -270,6 +271,82 @@ const trackCatalog: Track[] = [
       "With a gritty New Orleans-inspired delivery, crooked barroom piano, upright bass, brushed drums, handclaps, horn stabs, and ragged gospel backing vocals, the song turns digital-age anxiety into a street-corner sermon. It speaks to the pressure of timelines, algorithms, medical bills, career regret, aging bodies, AI, fractured attention, and the quiet human things still holding the world together.",
     coverImage: cover("Back-Up-Your-Files.webp"),
     audioSrc: audio("Back-Up-Your-Files.mp3"),
+    credits: defaultCredits,
+  },
+  {
+    slug: "tell-the-truth",
+    title: "Tell the Truth",
+    session: "new-orleans",
+    sessionLabel: "The New Orleans Sessions",
+    album: "The New Orleans Sessions",
+    genre: "Protest Funk",
+    primaryGenre: "Protest Funk",
+    secondaryStyles: [
+      "Gospel Soul",
+      "Soul-Pop",
+      "Rhythm & Blues",
+      "Alternative Soul",
+      "Social Commentary",
+      "Contemporary Funk",
+    ],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-06-04",
+    moods: [
+      "Protest Funk",
+      "Gospel Soul",
+      "Soul-Pop",
+      "Rhythm & Blues",
+      "Alternative Soul",
+      "Social Commentary",
+      "Contemporary Funk",
+    ],
+    hook:
+      "A high-octane New Orleans Sessions protest funk track with gospel conviction and street-corner bite.",
+    description:
+      "A high-octane protest funk-soul track that calls out modern hypocrisy with gospel conviction and street-corner bite.",
+    story:
+      "Built on hard drums, slap bass, sharp horn stabs, dirty funk guitar, duet vocals, and punchy choir responses, Tell the Truth takes aim at flex culture, luxury worship, sexualized entertainment, violence-as-branding, streaming exploitation, and moral double-talk. With a call-and-response spirit rooted in classic soul protest music, the song challenges a culture that preaches justice while selling poison, asking a blunt question: if the song does not lift the people, why call it revolution?",
+    coverImage: cover("Tell-The-Truth.webp"),
+    audioSrc: audio("Tell-The-Truth.mp3"),
+    credits: defaultCredits,
+  },
+  {
+    slug: "nani",
+    title: "Nani?",
+    session: "tokyo",
+    sessionLabel: "The Tokyo Sessions",
+    album: "The Tokyo Sessions",
+    genre: "Electro-Funk",
+    primaryGenre: "Electro-Funk",
+    secondaryStyles: [
+      "Synth-Pop",
+      "Alternative Dance",
+      "Anime Pop",
+      "Minimal Wave",
+      "Comedy Funk",
+      "Experimental Pop",
+    ],
+    languages: ["Japanese", "English"],
+    releaseDate: "2026-06-04",
+    moods: [
+      "Electro-Funk",
+      "Synth-Pop",
+      "Alternative Dance",
+      "Anime Pop",
+      "Minimal Wave",
+      "Comedy Funk",
+      "Experimental Pop",
+      "Humorous",
+    ],
+    hook:
+      "A minimalist Tokyo Sessions electro-funk track where one perfectly timed question becomes the whole mood.",
+    description:
+      "A minimalist electro-funk track built around one of anime's most recognizable expressions: Nani?!",
+    story:
+      "Inspired by the strange, deadpan energy of 1980s synth grooves, Nani? turns a handful of vocal phrases into rhythm, attitude, and absurd cool. With rubbery bass, dry drum-machine hits, synth stabs, breathy callouts, playful anime-style reactions, and wide open space, the song leans into the idea that sometimes the hook is not a story; it is a sound, a mood, and a perfectly timed raised eyebrow.",
+    coverImage: cover("Nani.webp"),
+    audioSrc: audio("Nani.mp3"),
     credits: defaultCredits,
   },
   {
@@ -646,6 +723,7 @@ export const sessions = [
   { key: "london", label: "London", title: "The London Sessions" },
   { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
   { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
+  { key: "tokyo", label: "Tokyo", title: "The Tokyo Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
@@ -704,6 +782,17 @@ export const moods = [
   "Junkyard Gospel",
   "Alternative Soul",
   "Cinematic Blues",
+  "Protest Funk",
+  "Gospel Soul",
+  "Rhythm & Blues",
+  "Social Commentary",
+  "Contemporary Funk",
+  "Electro-Funk",
+  "Synth-Pop",
+  "Anime Pop",
+  "Minimal Wave",
+  "Comedy Funk",
+  "Experimental Pop",
 ] as const;
 
 export function getTrack(slug: string) {
