@@ -1483,6 +1483,184 @@ Silence.
 
 One satisfying "Unfollow" click.`,
 
+  "tell-the-truth": `Hey, C'mon now.
+You been talking real loud
+For somebody being carried.
+Let’s tell the truth.
+
+Mmm-hmm.
+Tell it plain now.
+
+You keep talking ’bout your money
+Talking ’bout your shine
+Talking ’bout the big plans
+You got coming down the line
+
+Talking ’bout your hustle
+Talking like you’re blessed
+But you never mention mercy
+When you’re beating on your chest
+
+No no no
+Tell the truth now
+Yeah yeah
+Tell the truth now
+
+You say you’re self-made, brother
+But who woke you up today?
+Who put breath down in your body
+Before your eyes could find the day?
+
+You got shoes on your feet
+Food sitting on your plate
+Still side-eyeing your neighbor
+Mad about what God gave
+
+Take the pride off your face, child
+It’s a brand new day
+Mercy came before the sunrise
+Grace was already on the way
+
+Tell it on the mountain
+Tell it in the street
+Tell it when you’re winning
+Tell it when you’re weak
+
+If you can’t see God’s goodness
+You’re walking past the proof
+Count your blessings
+Tell the truth
+
+Tell it, tell it
+Tell the truth now
+Yeah yeah
+Tell it, tell it
+Count ’em up now
+
+You keep scrolling through the window
+Of somebody else’s life
+Counting up their blessings
+Like it’s money off your price
+
+You want their house, their car
+Their smile, their seat
+But you don’t know what they carried
+Just to stand up on their feet
+
+You don’t know
+No no no
+You don’t know
+Yeah yeah
+
+Envy got you bitter
+Pride got you blind
+You’re so busy wanting theirs
+You forgot to thank God for mine
+
+You’re praying for the spotlight
+But can’t serve in the shade
+Want the crown without the cross
+Want the glory without the grave
+
+Put your hand over your heart, child
+Feel that mercy beat
+That’s not luck running through you
+That’s grace keeping rhythm in your feet
+
+Tell it on the mountain
+Tell it in the street
+Tell it when you’re winning
+Tell it when you’re weak
+
+If you can’t see God’s goodness
+You’re walking past the proof
+Count your blessings
+Tell the truth
+
+Pardon for the wrong road
+
+Peace for the midnight
+
+Strength when the load’s heavy
+
+Hope when it don’t look right
+
+Bread when the shelf runs empty
+
+Grace when the bills come due
+
+Ten thousand little mercies
+You forgot were carrying you
+
+Carrying you
+Yes He was
+Carrying you
+Tell the truth
+
+You keep saying, “Look what I’m building.”
+That’s fine.
+But don’t forget who gave you hands.
+
+And don’t forget who held them
+When you couldn’t make ’em stand.
+
+If you got a little status
+
+Don’t let it twist your soul
+
+Gold around your wrist
+
+Don’t mean your heart is whole
+
+If you’re climbing up the ladder
+
+Better check what’s underneath
+
+There’s a lot of men with full accounts
+
+Who can’t afford no peace
+
+No peace
+No no no
+No peace
+Yeah yeah
+
+Bless the one beside you
+Bless the one ahead
+Bless the one with less than you
+Still thanking God for daily bread
+Quit talking like a kingpin
+When you’re kneeling at the throne
+Everything you call your empire
+Was borrowed ground beneath your feet
+
+Tell it on the mountain
+Tell it in the street
+Tell it when you’re winning
+Tell it when you’re weak
+
+If you can’t see God’s goodness
+You’re walking past the proof
+Count your blessings
+Tell the truth
+
+Tell it, tell it
+Tell the truth now
+Yeah yeah
+Tell it, tell it
+Count ’em up now
+
+Count your blessings
+
+Tell the truth
+Count your blessings
+Tell the truth
+Count your blessings
+Tell the truth
+Mercy got there first.
+
+Don’t act brand new.`,
+
   "asobi-nin-player": `[Verse 1]
 Dōtonbori lights, neon bleedin' on the river
 Three AM and his phone's still buzzin' like it's shiverin'

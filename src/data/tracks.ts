@@ -10,6 +10,7 @@ export type Session =
   | "leeds"
   | "new-orleans"
   | "tokyo"
+  | "big-top"
   | "gothic"
   | "emi"
   | "osaka"
@@ -81,7 +82,6 @@ const trackCatalog: Track[] = [
     secondaryStyles: ["Dance Pop", "Mediterranean Pop", "Comedy Pop"],
     languages: ["English", "Italian", "Sicilian dialect"],
     featured: true,
-    songOfDay: true,
     releaseDate: "2026-05-14",
     runtime: "3:42",
     moods: ["International Pop", "Dance Pop", "Mediterranean Pop", "Comedy Pop"],
@@ -271,6 +271,7 @@ const trackCatalog: Track[] = [
       "With a gritty New Orleans-inspired delivery, crooked barroom piano, upright bass, brushed drums, handclaps, horn stabs, and ragged gospel backing vocals, the song turns digital-age anxiety into a street-corner sermon. It speaks to the pressure of timelines, algorithms, medical bills, career regret, aging bodies, AI, fractured attention, and the quiet human things still holding the world together.",
     coverImage: cover("Back-Up-Your-Files.webp"),
     audioSrc: audio("Back-Up-Your-Files.mp3"),
+    youtubeVideoId: "8rRfN4rx0iM",
     credits: defaultCredits,
   },
   {
@@ -309,6 +310,39 @@ const trackCatalog: Track[] = [
       "Built on hard drums, slap bass, sharp horn stabs, dirty funk guitar, duet vocals, and punchy choir responses, Tell the Truth takes aim at flex culture, luxury worship, sexualized entertainment, violence-as-branding, streaming exploitation, and moral double-talk. With a call-and-response spirit rooted in classic soul protest music, the song challenges a culture that preaches justice while selling poison, asking a blunt question: if the song does not lift the people, why call it revolution?",
     coverImage: cover("Tell-The-Truth.webp"),
     audioSrc: audio("Tell-The-Truth.mp3"),
+    youtubeVideoId: "3TggYsH_IwM",
+    credits: defaultCredits,
+  },
+  {
+    slug: "clown-tax",
+    title: "Clown Tax",
+    session: "big-top",
+    sessionLabel: "The Big Top Sessions",
+    album: "The Big Top Sessions",
+    genre: "Protest Rock",
+    primaryGenre: "Protest Rock",
+    secondaryStyles: ["Circus Rock", "Garage Rock", "Alternative Pop", "Political Satire"],
+    languages: ["English"],
+    featured: true,
+    songOfDay: true,
+    releaseDate: "2026-06-07",
+    moods: [
+      "Protest Rock",
+      "Circus Rock",
+      "Garage Rock",
+      "Alternative Pop",
+      "Political Satire",
+      "Humorous",
+    ],
+    hook:
+      "A darkly funny Big Top Sessions protest-rock track about paying for the show after the joke stops being funny.",
+    description:
+      "A darkly funny protest-rock track built around the idea that the public keeps paying for the show long after the joke stops being funny.",
+    story:
+      "With a driving bassline, smoky female vocal, fuzz guitar, handclaps, tambourine, brass stabs, and a sinister big-top atmosphere, Clown Tax turns modern politics into a traveling circus of ringmasters, parties, pundits, money games, war talk, medical bills, rocket-ship vanity projects, and spectacle-for-profit. Sharp, catchy, and cynical without picking a single side, the song asks what happens when everybody has a party, but ordinary people are still left with the bill.",
+    coverImage: cover("Clown-Tax.webp"),
+    audioSrc: audio("Clown-Tax.mp3"),
+    youtubeVideoId: "Bz5XE84kqUA",
     credits: defaultCredits,
   },
   {
@@ -724,6 +758,7 @@ export const sessions = [
   { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
   { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
   { key: "tokyo", label: "Tokyo", title: "The Tokyo Sessions" },
+  { key: "big-top", label: "Big Top", title: "The Big Top Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
@@ -793,6 +828,11 @@ export const moods = [
   "Minimal Wave",
   "Comedy Funk",
   "Experimental Pop",
+  "Protest Rock",
+  "Circus Rock",
+  "Garage Rock",
+  "Alternative Pop",
+  "Political Satire",
 ] as const;
 
 export function getTrack(slug: string) {
