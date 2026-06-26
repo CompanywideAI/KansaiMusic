@@ -1661,6 +1661,70 @@ Mercy got there first.
 
 Don’t act brand new.`,
 
+  "bosnia-welcome-to-america": `Bosnia, welcome to America!
+
+[Verse 1]
+I am American — welcome to America
+You brought that Balkan thunder and a little mass hysteria
+From Sarajevo streets to the city by the Gate
+First time in the knockouts — man, we gotta celebrate
+
+Let the Scots keep Boston, they drank it dry anyway
+Bring your blue and gold, we'll gladly give you the Bay
+Round of thirty-two awaits, have a IPA and bowl of chowder
+We'll Waymo to Santa Clara, and see who screams louder
+
+[Pre-Chorus]
+Win or lose, we raise it high
+Different flags in the same blue sky
+From Sarajevo to the Bay
+Everybody sing today!
+
+[Chorus]
+One day when you cross the sea
+One day I think you'll agree
+Win or lose, we're still a meme
+Livin’ the American dream
+
+One day when you cross the sea
+One day I think you'll agree
+Different flags, but the same dream
+Two cultures, one big family
+
+[Post-Chorus]
+Whoa-oh-oh, hey!
+Whoa-oh-oh, hey!
+Bosnia to America!
+America says hey!
+
+[Verse 2]
+So whatever happens Wednesday, we'll be brothers when it's through
+Buy you a beer, you buy one back, that's what good neighbors do
+There'll be no kilts, no rowing, but plenty of ways to celebrate
+Then “goodbye” and “see you soon” — got the Olympics in twenty-eight
+
+If we make it to the round of sixteen, you're welcome to join the mania
+I may even have an extra ticket — bring the other guy Herzegovina
+So from the Bay to L.A., friend, the welcome never ends
+We came as two countries — we're leaving here as friends
+
+[Final Chorus]
+One day when you cross the sea
+One day I think you'll agree
+Win or lose, we're still a meme
+Livin’ the American dream
+
+One day when you cross the sea
+One day I think you'll agree
+Different flags, but the same dream
+Two cultures, one big family
+
+[Outro]
+From the Bay to L.A.!
+From Bosnia to the Bay!
+Two cultures, one big family!
+Hey!`,
+
   "asobi-nin-player": `[Verse 1]
 Dōtonbori lights, neon bleedin' on the river
 Three AM and his phone's still buzzin' like it's shiverin'

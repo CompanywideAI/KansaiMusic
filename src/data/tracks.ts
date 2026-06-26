@@ -11,6 +11,7 @@ export type Session =
   | "new-orleans"
   | "tokyo"
   | "big-top"
+  | "world-cup"
   | "gothic"
   | "emi"
   | "osaka"
@@ -343,6 +344,48 @@ const trackCatalog: Track[] = [
     coverImage: cover("Clown-Tax.webp"),
     audioSrc: audio("Clown-Tax.mp3"),
     youtubeVideoId: "Bz5XE84kqUA",
+    credits: defaultCredits,
+  },
+  {
+    slug: "bosnia-welcome-to-america",
+    title: "Bosnia, Welcome to America",
+    session: "world-cup",
+    sessionLabel: "The World Cup Sessions",
+    album: "The World Cup Sessions",
+    genre: "Balkan Ska",
+    primaryGenre: "Balkan Ska",
+    secondaryStyles: [
+      "Pop-Punk",
+      "Football Anthem",
+      "Comedy Rock",
+      "World Music",
+      "Stadium Rock",
+      "Sports Song",
+      "Parody / Response Song",
+    ],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-06-26",
+    moods: [
+      "Balkan Ska",
+      "Pop-Punk",
+      "Football Anthem",
+      "Comedy Rock",
+      "World Music",
+      "Stadium Rock",
+      "Sports Song",
+      "Parody / Response Song",
+      "Feel-Good",
+    ],
+    hook:
+      "A rowdy World Cup Sessions response song that turns a knockout match into a friendly American welcome.",
+    description:
+      "A rowdy, good-natured World Cup response song built for the USA vs. Bosnia and Herzegovina knockout match in Santa Clara.",
+    story:
+      "Inspired by Balkan football-party energy and filtered through a California pop-punk lens, Bosnia, Welcome to America flips the invitation into a friendly American welcome: accordion hooks, stomp-beat momentum, SoCal guitars, brass accents, and a stadium-ready chorus about football, friendship, memes, chowder, and two cultures turning a match into a celebration. Win or lose, the song is less about rivalry than hospitality; Bosnia came to America, so America wrote back.",
+    coverImage: cover("Bosnia-Welcome-to-America.webp"),
+    audioSrc: audio("Bosnia-Welcome-to-America-complete.mp3"),
+    youtubeVideoId: "6cOhqv1Uczc",
     credits: defaultCredits,
   },
   {
@@ -759,6 +802,7 @@ export const sessions = [
   { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
   { key: "tokyo", label: "Tokyo", title: "The Tokyo Sessions" },
   { key: "big-top", label: "Big Top", title: "The Big Top Sessions" },
+  { key: "world-cup", label: "World Cup", title: "The World Cup Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
   { key: "emi", label: "Emi", title: "The Emi Sessions" },
   { key: "osaka", label: "Osaka", title: "The Osaka Sessions" },
@@ -833,6 +877,14 @@ export const moods = [
   "Garage Rock",
   "Alternative Pop",
   "Political Satire",
+  "Balkan Ska",
+  "Pop-Punk",
+  "Football Anthem",
+  "Comedy Rock",
+  "World Music",
+  "Stadium Rock",
+  "Sports Song",
+  "Parody / Response Song",
 ] as const;
 
 export function getTrack(slug: string) {
