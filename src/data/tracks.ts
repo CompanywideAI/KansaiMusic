@@ -10,6 +10,7 @@ export type Session =
   | "leeds"
   | "new-orleans"
   | "tokyo"
+  | "k-drama"
   | "big-top"
   | "world-cup"
   | "gothic"
@@ -35,8 +36,12 @@ export type Track = {
   hook: string;
   description: string;
   story?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  metaKeywords?: string[];
   lyrics?: string;
   coverImage: string;
+  coverAlt?: string;
   audioSrc: string;
   videoSrc?: string;
   videoPoster?: string;
@@ -386,6 +391,59 @@ const trackCatalog: Track[] = [
     coverImage: cover("Bosnia-Welcome-to-America.webp"),
     audioSrc: audio("Bosnia-Welcome-to-America-complete.mp3"),
     youtubeVideoId: "6cOhqv1Uczc",
+    credits: defaultCredits,
+  },
+  {
+    slug: "k-love-drama",
+    title: "K-Love Drama",
+    session: "k-drama",
+    sessionLabel: "The K-Drama Sessions",
+    album: "The K-Drama Sessions",
+    genre: "Electro-Funk",
+    primaryGenre: "Electro-Funk",
+    secondaryStyles: ["K-Pop Inspired Pop", "Comedy Pop"],
+    languages: ["English", "Korean"],
+    featured: true,
+    releaseDate: "2026-07-02",
+    moods: [
+      "Electro-Funk",
+      "K-Pop Inspired Pop",
+      "Comedy Pop",
+      "Cheeky",
+      "Funky",
+      "Cinematic",
+      "Playful",
+      "Sarcastic",
+      "Romantic Satire",
+    ],
+    hook:
+      "A funky, tongue-in-cheek K-drama satire where one heroine rewrites the script for the second lead.",
+    description:
+      "A funky, tongue-in-cheek K-drama satire about wrist grabs, rainy scenes, childhood fate, soju dreams, and one heroine who finally rewrites the script for the second lead.",
+    story:
+      "K-Love Drama is a cheeky electro-funk pop track that turns classic Korean drama tropes into a sharp, danceable satire. Wrist grabs in the rain, childhood fate, rich-boy trauma, impossible parents, soju dreams, episode sixteen confessions, and second lead syndrome all collide in one over-the-top love triangle. But this heroine is not waiting around for destiny to behave. She knows the script, sees the product placement, and changes the ending herself. With a rubbery bass groove, sharp keyboard hits, Korean phrases, and a wink at every familiar K-drama cliche, K-Love Drama is part parody, part love letter, and part anthem for anyone who ever thought the second lead deserved better.",
+    seoTitle: "K-Love Drama - Korean Drama Satire Song by Kansai Music",
+    seoDescription:
+      "K-Love Drama by Kansai Music is a funky, tongue-in-cheek pop song parodying classic Korean drama tropes, from wrist grabs in the rain to second lead syndrome.",
+    metaKeywords: [
+      "K-Love Drama",
+      "Kansai Music",
+      "K-drama song",
+      "Korean drama parody",
+      "K-drama satire",
+      "second lead syndrome",
+      "comedy pop",
+      "electro funk",
+      "K-pop inspired",
+      "soju dream",
+      "Korean drama tropes",
+      "not another love song",
+    ],
+    coverImage: cover("K-Love-Drama.webp"),
+    coverAlt:
+      "Album cover for K-Love Drama by Kansai Music, styled like a dramatic Korean romance poster with a love triangle, rainy city lights, and playful K-drama satire.",
+    audioSrc: audio("K-Love-Drama.mp3"),
+    youtubeVideoId: "OVmy29u6vGg",
     credits: defaultCredits,
   },
   {
@@ -801,6 +859,7 @@ export const sessions = [
   { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
   { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
   { key: "tokyo", label: "Tokyo", title: "The Tokyo Sessions" },
+  { key: "k-drama", label: "K-Drama", title: "The K-Drama Sessions" },
   { key: "big-top", label: "Big Top", title: "The Big Top Sessions" },
   { key: "world-cup", label: "World Cup", title: "The World Cup Sessions" },
   { key: "gothic", label: "Gothic", title: "The Gothic Sessions" },
@@ -867,11 +926,18 @@ export const moods = [
   "Social Commentary",
   "Contemporary Funk",
   "Electro-Funk",
+  "K-Pop Inspired Pop",
   "Synth-Pop",
   "Anime Pop",
   "Minimal Wave",
   "Comedy Funk",
   "Experimental Pop",
+  "Cheeky",
+  "Funky",
+  "Cinematic",
+  "Playful",
+  "Sarcastic",
+  "Romantic Satire",
   "Protest Rock",
   "Circus Rock",
   "Garage Rock",

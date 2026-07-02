@@ -28,21 +28,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Song Not Found" };
   }
 
+  const title = track.seoTitle ?? `${track.title} | Kansai Music`;
+  const description = track.seoDescription ?? track.description;
+  const imageAlt = track.coverAlt ?? `${track.title} cover artwork`;
+
   return {
-    title: track.title,
-    description: track.description,
+    title: track.seoTitle ? { absolute: track.seoTitle } : track.title,
+    description,
+    keywords: track.metaKeywords,
     alternates: { canonical: `/music/${track.slug}` },
     openGraph: {
-      title: `${track.title} | Kansai Music`,
-      description: track.description,
+      title,
+      description,
       url: `/music/${track.slug}`,
       type: "music.song",
-      images: [{ url: track.coverImage, width: 1200, height: 1200, alt: `${track.title} cover artwork` }],
+      images: [{ url: track.coverImage, width: 1200, height: 1200, alt: imageAlt }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${track.title} | Kansai Music`,
-      description: track.description,
+      title,
+      description,
       images: [track.coverImage],
     },
   };
@@ -88,7 +93,7 @@ export default async function SongDetailPage({ params }: Props) {
             <div className="relative aspect-square overflow-hidden rounded-[8px] border border-border bg-panel-strong shadow-[var(--shadow)]">
               <Image
                 src={track.coverImage}
-                alt={`${track.title} cover artwork`}
+                alt={track.coverAlt ?? `${track.title} cover artwork`}
                 fill
                 priority
                 sizes="(min-width: 1024px) 42vw, 92vw"

@@ -14,7 +14,7 @@ export function VideoCard({ track }: { track: Track }) {
         <div className="relative aspect-video bg-panel-strong">
           <Image
             src={track.videoPoster || track.coverImage}
-            alt={`${track.title} lyric video poster`}
+            alt={track.coverAlt ?? `${track.title} lyric video poster`}
             fill
             sizes="(min-width: 1024px) 45vw, 92vw"
             className="object-cover transition duration-700 group-hover:scale-105"

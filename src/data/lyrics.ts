@@ -1725,6 +1725,114 @@ From Bosnia to the Bay!
 Two cultures, one big family!
 Hey!`,
 
+  "k-love-drama": `[Intro]
+Aigo..
+Aigo. Oppa!
+Not another. K-love drama.
+
+[Chorus]
+Aigo! Here we go again!
+Wrist grab! Another rainy scene!
+Living my Beer and soju dream!
+No true love till episode sixteen
+Aigo! Here we go again!
+Unmyeong aniya!
+Aigo! Here we go again!
+Caught up! Caught up! Caught up in the stream! Uh-huh!
+
+[Post-Chorus]
+K-love drama. No no!
+K-love drama. No no!
+Not another. No no!
+I'm changing the script!
+Hey! Hey! Hey!
+
+[Verse 1]
+Eight years old at the orphanage gate,
+You gave me a scarf then vanished like fate.
+Now I'm twenty-nine and there's still no sign,
+Nocheonyeo?!
+No thank you, I'm doing fine!
+Your Eomma hates me, Appa picked out an heiress,
+Oppa's got too much trauma, I could hardly care less
+You said, "Get in," and I said, "That's rude,"
+Then the rain came down and it changed my mood!
+Let's go!
+
+[Chorus]
+Aigo! Here we go again!
+Wrist grab! Another rainy scene!
+Living my Beer and soju dream!
+No true love till episode sixteen
+Aigo! Here we go again!
+Unmyeong aniya!
+Aigo! Here we go again!
+Caught up! Caught up! Caught up in the stream!
+
+[Break]
+Sarang aniya! Lighting!
+Unmyeong aniya! Timing!
+Maldo andwae! Product placement!
+And rings.
+
+[Verse 2]
+Then I took a little trip and you caught my side,
+We were two inches away where gravity lied.
+Staring deep right into my Oppa's eyes,
+Hold up!
+Till my stomach growled out to a holy pause!
+Yeah, you stare through glass like it's some retail skill,
+While the feelings get real and the scenes stand still.
+Then the second male lead brought a soup and a smile,
+Yeah, he knew my coffee order and he stayed for a while!
+Uh-oh!
+
+[Post-Chorus]
+K-love drama! No no!
+K-love drama! No no!
+Not another! No no!
+I'm changing the script.
+
+[Bridge]
+Episode ten! Beach montage!
+Episode twelve! Sabotage!
+Episode fifteen! Everybody cries!
+Second male lead! Kindest eyes!
+Medicine! Cold night!
+Ramen! Street light!
+Main lead! It's alright!
+Baby, I'm changing the storyline!
+Plot twist.
+
+[Chorus]
+Aigo! Here we go again!
+Wrist grab! Another rainy scene!
+With my childhood friend!
+Piggyback on the second lead!
+But Tonight he's got what I need!
+Aigo! Here we go again!
+Mianhae, Oppa!
+Aigo! Here we go again!
+Mianhae, Oppa!
+I picked the nice one.
+Ooh!
+
+[Post-Chorus]
+K-love drama! No no!
+K-love drama! No no!
+Not another! No no!
+I'm changing the script!
+
+[Outro]
+Annyeong, male lead. Hello, one who fed me.
+You were moody, but he really knew me.
+You brought the angst, he brought the kimchi.
+Annyeong, Drama. Sarang-inga bwa.
+Plot twist, who could ever guess
+That I would choose the second banana
+Aigo.
+[End]`,
+
   "asobi-nin-player": `[Verse 1]
 Dōtonbori lights, neon bleedin' on the river
 Three AM and his phone's still buzzin' like it's shiverin'

@@ -12,7 +12,7 @@ export function TrackCard({ track, priority = false }: { track: Track; priority?
         <div className="relative aspect-square overflow-hidden bg-panel-strong">
           <Image
             src={track.coverImage}
-            alt={`${track.title} cover artwork`}
+            alt={track.coverAlt ?? `${track.title} cover artwork`}
             fill
             priority={priority}
             sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw"

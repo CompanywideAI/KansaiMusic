@@ -25,7 +25,7 @@ export function FeaturedTrack({ track }: { track: Track }) {
       </div>
       <div className="grid gap-8 rounded-[8px] border border-border bg-panel/70 p-4 shadow-[var(--shadow)] lg:grid-cols-[0.85fr_1.15fr] lg:p-6">
         <div className="relative aspect-square overflow-hidden rounded-[6px] bg-panel-strong">
-          <Image src={track.coverImage} alt={`${track.title} cover artwork`} fill priority sizes="(min-width: 1024px) 40vw, 92vw" className="object-cover" />
+          <Image src={track.coverImage} alt={track.coverAlt ?? `${track.title} cover artwork`} fill priority sizes="(min-width: 1024px) 40vw, 92vw" className="object-cover" />
         </div>
         <div className="flex flex-col justify-center p-2 lg:p-4">
           <SessionBadge>{track.sessionLabel}</SessionBadge>
