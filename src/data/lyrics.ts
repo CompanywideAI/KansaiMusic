@@ -1402,167 +1402,91 @@ They don't even look me right in the eye
 "Your role is redundant," they coldly state
 Replaced by the system I helped to create`,
 
-  "eat-the-spam": `[Intro]
-Inbox. Feed. Porch. Pulse.
-Inbox. Feed. Porch. Pulse.
+  "the-meat-beat": `Inbox feed porch pulse
 
-Accept the cookies.
-Accept the cookies.
+Inbox feed porch pulse
+Accept the cookies
+Accept the cookies
 
-Your account has been flagged for mediocrity.
+Your account has been flagged for mediocrity
 
-[Verse 1]
-Hey girl!
-Ping!
-
-Skin too human?
-Swipe!
-
-Soul too quiet?
-Click!
-
-Link in bio!
-Like!
-
+Hey girl
+Skin too human
+Soul too quiet
+Link in bio
 Got the protocol
 Got the cleanse
 Got the mindset in a jar
-
-Twenty-two-year-old life coach
-In a rental car
-
+Twenty two year old life coach in a rental car
 I'm in your DMs
 I'm on your porch
 I'm the algorithm holding a tiki torch
 
-[Pre-Chorus]
 Verify your identity
 Leave your dignity
-
 Verify your identity
 Leave your dignity
-
-Is your face too tired?
-Is your lawn too green?
-
+Is your face too tired
+Is your lawn too green
 Subscribe to the dream you've never seen
+One two
+One two three let's go
 
-One, two...
-One, two, three, let's GO!
+Eat the spam
+Kiss the cam
+Swipe up swipe down
+We know exactly where you are
+Accept the cookies
+Eat the spam
+Buy the dip and be the brand
 
-[Chorus]
-EAT THE SPAM!
-KISS THE CAM!
-
-Bass hit.
-
-SWIPE UP!
-SWIPE DOWN!
-
-WE KNOW EXACTLY WHERE YOU ARE!
-
-ACCEPT THE COOKIES!
-
-EAT THE SPAM!
-
-Bass hit.
-
-BUY THE DIP AND BE THE BRAND!
-
-[Verse 2]
-URGENT!
-URGENT!
-
-Package stuck at the border!
-We just need a credit card
-To process your disorder!
-
+Urgent urgent
+Package stuck at the border
+We just need a credit card to process your disorder
 Got a PDF to make you rich by lunch
 Ships from a warehouse that doesn't exist
+Smart mug subscriptions
+Noise canceling thoughts
+We're selling the panic that everybody bought
+Grandma's on the phone but it's AI cloned
+Honey buy the crypto
+You're totally alone
 
-Smart-mug subscriptions
-Noise-canceling thoughts
-We're selling the panic
-That everybody bought
-
-Grandma's on the phone
-But it's A.I. cloned:
-
-"Honey, buy the crypto, you're totally alone!"
-
-[Bridge]
-Unsubscribe.
-
-Error 404.
-
-Unsubscribe.
-
-Please click all the squares containing... despair.
-
+Unsubscribe
+Error 404
+Unsubscribe
+Please click all the squares containing despair
 We've updated our privacy policy
-To include your dreams.
+To include your dreams
+We've optimized your silence
+We've monetized
+Your screams
 
-We've optimized your silence.
+Hot singles in your area
+Extended warranty expired
+Your package
+Your password
+Your mother
+Sent from my iPhone
+Sent from my iPhone
+Sent from my
+Refresh refresh refresh
+Drop it
 
-We've monetized...
-Your...
-Screams.
+Eat the spam
+Kiss the cam
+Swipe up swipe down
+We know exactly where you
+Accept the cookies
+Eat the spam
+Buy the dip and be the brand
 
-[Build]
-Hot singles in your area!
-Extended warranty expired!
-
-Your package!
-Your password!
-Your mother!
-
-Sent from my iPhone!
-Sent from my iPhone!
-Sent from my—
-
-Refresh!
-Refresh!
-Refresh!
-
-DROP IT!
-
-[Final Chorus]
-EAT THE SPAM!
-KISS THE CAM!
-
-Bass hit.
-
-SWIPE UP!
-SWIPE DOWN!
-
-WE KNOW EXACTLY WHERE YOU—
-
-ACCEPT THE COOKIES!
-
-EAT THE SPAM!
-
-Bass hit.
-
-BUY THE DIP AND BE THE BRAND!
-
-[Outro]
-Check your inbox.
-Ping!
-
-Check your feed.
-Buzz!
-
-Check your porch.
-Ding-dong!
-
-Check your pulse...
-
-Sent from my iPhone.
-Sent from my...
-
-Silence.
-
-One satisfying "Unfollow" click.`,
+Check your inbox
+Check your feed
+Check your porch
+Check your pulse
+Sent from my iPhone
+Sent from my`,
 
   "tell-the-truth": `Hey, C'mon now.
 You been talking real loud

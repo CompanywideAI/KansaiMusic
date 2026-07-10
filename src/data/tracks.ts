@@ -659,7 +659,7 @@ const trackCatalog: Track[] = [
   },
   {
     slug: "little-victories",
-    title: "小さな優勝 (Little Victories)",
+    title: "小さなしあわせ (Little Happiness)",
     session: "emi",
     sessionLabel: "The Emi Sessions",
     album: "The Emi Sessions",
@@ -837,8 +837,8 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
-    slug: "eat-the-spam",
-    title: "Eat the Spam",
+    slug: "the-meat-beat",
+    title: "The Meat Beat",
     session: "emi",
     sessionLabel: "The Emi Sessions",
     album: "The Emi Sessions",
@@ -849,13 +849,13 @@ const trackCatalog: Track[] = [
     releaseDate: "2026-05-01",
     runtime: "2:48",
     moods: ["Dance Pop", "Social Satire", "Pop"],
-    hook: "A satirical dance track about scams, AI fakes, spam, and the noise we keep eating.",
+    hook: "A satirical dance track about scams, AI fakes, spam, and the noise we keep consuming.",
     description:
       "A high-energy dance track with a satirical edge, taking aim at spam, scams, AI fakes, social media noise, and the digital nonsense we keep consuming anyway.",
     story:
-      "Throbbing, catchy, and intentionally over-the-top, this Emi session keeps the public title as Eat the Spam while retaining the current Kiss-the-Spam media filenames.",
-    coverImage: cover("Kiss-the-Spam.webp"),
-    audioSrc: audio("Kiss-the-Spam.mp3"),
+      "Throbbing, catchy, and intentionally over-the-top, The Meat Beat turns digital noise, scams, AI fakes, social media churn, and inbox panic into a satirical Emi Sessions dance track.",
+    coverImage: cover("The-Meat-Beat.webp"),
+    audioSrc: audio("The-Meat-Beat.mp3"),
     credits: defaultCredits,
   },
   {
