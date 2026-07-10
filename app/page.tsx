@@ -33,6 +33,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const songOfDay = getSongOfDay();
   const featuredTrackOrder = [
+    "summer-of-2026",
     "brittany-a-mascalucia",
     "all-american-cowboy",
     "hollywoods-burning",

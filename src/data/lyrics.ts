@@ -156,6 +156,87 @@ And a Goldensnickerdoodle that he calls Fred
 Got married at the Beverly Hilton to Lady Tiffany
 One thing I know, that boy sure the hell ain't country`,
 
+  "summer-of-2026": `I got a job, but I don't wanna go
+No, no, no
+The weather's just too good to miss
+Bad news can wait, we're staying out late
+In the summer of twenty-six
+
+I should be there, but I'm already gone
+Oh, oh,
+Tell the boss I'm calling in sick
+The whole world can scroll, but I'm letting it go
+In the summer of twenty-six
+
+Two-oh-two-six
+Sunshine on my skin
+Two-oh-two-six
+Let the summer begin
+
+Olivia loud in my AirPods
+Notifications set to sleep
+Rollerblading down the boardwalk
+With nowhere I've gotta be
+
+I can't recall what you told me
+And I don't really wanna know
+The gray-sky days are behind me
+And my worries are on hold
+
+I've been waiting all year
+For a day like this
+If anybody needs me
+Tell 'em what they missed
+
+I got a job, but I don't wanna go
+No, no, no
+The weather's just too good to miss
+Bad news can wait, we're staying out late
+In the summer of twenty-six
+
+I should be there, but I'm already gone
+Oh, oh,
+Tell the boss I'm calling in sick
+The whole world can scroll, but I'm letting it go
+In the summer of twenty-six
+
+Two-oh-two-six
+Sunshine on my skin
+Two-oh-two-six
+Let the summer begin
+
+So I bought a pair of cheap sunglasses
+And a postcard I'll never send
+You can waste your life making plans
+Or waste an afternoon with friends
+
+We've been running all year
+Just to stay where we are
+Tonight we're trading deadlines
+For the backseat of a car
+
+I got a job, but I don't wanna go
+No, no, no
+The weather's just too good to miss
+Bad news can wait, we're staying out late
+In the summer of twenty-six
+
+I should be there, but I'm already gone
+Oh, oh,
+Tell the boss I'm calling in sick
+The whole world can scroll, but I'm letting it go
+In the summer of twenty-six
+
+Maybe nothing lasts forever
+Maybe that's what makes it good
+Maybe we don't need the answers
+Half as much as we thought we would
+
+The sun drops down behind the water
+Like it's got somewhere else to be
+Tomorrow can come looking
+But tonight it won't find me`,
+
   "satisfied-in-him": `[Chorus]
 For God is most glorified in us
 When we are satisfied in Him

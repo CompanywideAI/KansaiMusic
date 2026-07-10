@@ -125,6 +125,45 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "summer-of-2026",
+    title: "Summer of 2026",
+    session: "country",
+    sessionLabel: "The Country Sessions",
+    album: "The Country Sessions",
+    genre: "Pop",
+    primaryGenre: "Pop",
+    secondaryStyles: ["Country"],
+    languages: ["English"],
+    featured: true,
+    songOfDay: true,
+    releaseDate: "2026-07-10",
+    moods: ["Pop", "Country", "Country Pop", "Feel-Good", "Nostalgic"],
+    hook:
+      "A timely summer escape song for calling in sick, turning off the scroll, and staying out late.",
+    description:
+      "A bright pop-country track about dodging the workday, chasing perfect weather, and letting the whole world wait in the summer of 2026.",
+    story:
+      "Summer of 2026 captures that first real day when sunshine beats responsibility: AirPods loud, notifications asleep, cheap sunglasses on, and tomorrow politely ignored. Built for a timely Country Sessions release, it turns work fatigue into a warm, easy anthem about friends, boardwalks, backseats, and the brief little miracle of a summer night that refuses to be wasted.",
+    seoTitle: "Summer of 2026 - Pop Country Summer Song by Kansai Music",
+    seoDescription:
+      "Summer of 2026 by Kansai Music is a bright pop-country song about calling in sick, turning off the scroll, and making the most of a perfect summer day.",
+    metaKeywords: [
+      "Summer of 2026",
+      "Kansai Music",
+      "summer song 2026",
+      "pop country song",
+      "Country Sessions",
+      "calling in sick song",
+      "summer anthem",
+      "feel good country pop",
+    ],
+    coverImage: cover("Summer-of-2026.webp"),
+    coverAlt:
+      "Album cover for Summer of 2026 by Kansai Music, a bright pop-country summer song from The Country Sessions.",
+    audioSrc: audio("Summer-of-2026.mp3"),
+    credits: defaultCredits,
+  },
+  {
     slug: "satisfied-in-him",
     title: "Satisfied in Him",
     session: "gospel",
@@ -330,7 +369,6 @@ const trackCatalog: Track[] = [
     secondaryStyles: ["Circus Rock", "Garage Rock", "Alternative Pop", "Political Satire"],
     languages: ["English"],
     featured: true,
-    songOfDay: true,
     releaseDate: "2026-06-07",
     moods: [
       "Protest Rock",
@@ -872,6 +910,7 @@ export const moods = [
   "Pop",
   "Indie Pop",
   "Dance Pop",
+  "Country",
   "Country Pop",
   "Contemporary Christian",
   "Worship",
