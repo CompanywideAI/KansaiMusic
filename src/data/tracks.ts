@@ -157,10 +157,10 @@ const trackCatalog: Track[] = [
       "summer anthem",
       "feel good country pop",
     ],
-    coverImage: cover("Summer-of-2026.webp"),
+    coverImage: cover("Summer-of-2026-r2.webp"),
     coverAlt:
       "Album cover for Summer of 2026 by Kansai Music, a bright pop-country summer song from The Country Sessions.",
-    audioSrc: audio("Summer-of-2026.mp3"),
+    audioSrc: audio("Summer-of-2026-r2.mp3"),
     credits: defaultCredits,
   },
   {
