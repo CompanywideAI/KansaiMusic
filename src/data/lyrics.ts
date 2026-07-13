@@ -168,7 +168,7 @@ Tell the boss I'm calling in sick
 The whole world can scroll but I'm letting it go
 In the summer of twenty six
 
-LA's playing in my AirPods
+Ella's playing in my AirPods
 Palm trees are waving to me
 Roller skating down the boardwalk
 With nowhere I've got to be
