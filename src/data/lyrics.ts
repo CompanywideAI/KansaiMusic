@@ -1654,6 +1654,139 @@ Mercy got there first.
 
 Don’t act brand new.`,
 
+  "bored": `Just another boring stream
+Another secondhand meme
+Brand ambassador selling joy
+Another plastic protein boy
+Another airbrushed beauty queen
+Flat broke, selling the millionaire dream
+Another day I should’ve stayed in bed
+With the same three thoughts inside my head
+
+I’m bored, bored, bored
+Bored to tears
+Bored, bored, bored
+I’ve been bored for years
+Bored, bored, bored
+Bored stiff, you see
+Bored, bored, bored
+I’m even bored of me
+
+I’m sick of perfect blue skies
+Work is watching paint dry
+Too worn out to even cry
+I’m bored by day, I’m bored by night
+I’m not trying to pin this on you
+There’s really nothing you can do
+Just another Friday-night encore
+Of the same old nothing as before
+
+And I can’t take it anymore
+Here comes that chorus once more
+
+I’m bored, bored, bored
+Bored to tears
+Bored, bored, bored
+I’ve been bored for years
+Bored, bored, bored
+Bored stiff, you see
+Bored, bored, bored
+I’m even bored of me
+
+I’m bored of this chorus
+I’m bored of this verse
+We could add a bridge
+But that would make it worse
+This song’s too long
+The joke’s worn thin
+Now I’m bored of this ending
+
+Oh, it’s still going
+
+I’m bored of this song`,
+
+  "a-la-mode": `Très chic
+Très chaud
+Low flame
+Big show
+
+Pearls at the pass
+Flour on her cuff
+She knows when truffle is vulgar
+And ketchup is enough
+Cartier keeps time
+The griddle sets the pace
+She flips a silver-dollar stack
+And never breaks her gaze
+
+Oui, chef
+Oh, please
+Pass the butter
+Hold the keys
+
+À la mode
+À la mode
+Sweet on the tongue
+Sharp on the bill
+À la mode
+À la mode
+Call it the future
+They’ll swallow it still
+High on the hog
+Low on the flame
+Everything changes
+Except for the game
+
+Champagne manners
+Diner appetite
+She can plate a small rebellion
+Under soft electric light
+She’ll garnish bad behavior
+Make a scandal look refined
+Then sell you back your own good taste
+One season at a time
+
+Très chic
+Très chaud
+Low flame
+Big show
+
+À la mode
+À la mode
+Sweet on the tongue
+Sharp on the bill
+À la mode
+À la mode
+Call it the future
+They’ll swallow it still
+High on the hog
+Low on the flame
+Everything changes
+Except for the game
+
+Yesterday was common
+Today it’s hard to find
+Tomorrow she’ll call it vintage
+And put it back in line
+A little smoke
+A little gold
+A name they can’t pronounce
+The smaller the portion
+The louder the applause
+
+À la mode
+À la mode
+Silk at the table
+Steel at the grill
+À la mode
+À la mode
+Give them a hunger
+Then hand them the bill
+High on the hog
+Low on the flame
+Everything changes
+She stays the same`,
+
   "bosnia-welcome-to-america": `Bosnia, welcome to America!
 
 [Verse 1]

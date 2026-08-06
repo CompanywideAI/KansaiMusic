@@ -281,6 +281,30 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "bored",
+    title: "Bored",
+    session: "london",
+    sessionLabel: "The London Sessions",
+    album: "The London Sessions",
+    genre: "British Retro-Soul",
+    primaryGenre: "British Retro-Soul",
+    secondaryStyles: ["Soul-Pop", "Comedy Pop"],
+    languages: ["English"],
+    releaseDate: "2026-08-05",
+    moods: ["British Retro-Soul", "Soul-Pop", "Comedy Pop", "Humorous"],
+    hook:
+      "A dry British Retro-Soul sigh about content fatigue, perfect skies, and being bored of the song itself.",
+    description:
+      "A witty British Retro-Soul track about modern sameness, endless feeds, recycled memes, and the creeping boredom of being bored with yourself.",
+    story:
+      "Bored turns digital fatigue and everyday repetition into a self-aware London Sessions groove. It skewers brand-ambassador joy, secondhand memes, polished lifestyle fantasies, and the feeling that even the chorus knows it has overstayed its welcome.",
+    coverImage: cover("Bored.webp"),
+    coverAlt:
+      "Album cover for Bored by Kansai Music, a British Retro-Soul track from The London Sessions.",
+    audioSrc: audio("Bored.mp3"),
+    credits: defaultCredits,
+  },
+  {
     slug: "back-up-your-files",
     title: "Back Up Your Files",
     session: "new-orleans",
@@ -359,6 +383,31 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "a-la-mode",
+    title: "À La Mode",
+    session: "new-orleans",
+    sessionLabel: "The New Orleans Sessions",
+    album: "The New Orleans Sessions",
+    genre: "Jazz",
+    primaryGenre: "Jazz",
+    secondaryStyles: ["R&B/Soul", "Jazz-Funk / Cabaret Pop"],
+    languages: ["English", "French"],
+    featured: true,
+    releaseDate: "2026-08-05",
+    moods: ["Jazz", "R&B/Soul", "Jazz-Funk / Cabaret Pop", "Funky", "Cinematic"],
+    hook:
+      "A chic New Orleans Sessions cabaret-pop groove where taste, appetite, and status get served with a wink.",
+    description:
+      "A stylish jazz, soul, and cabaret-pop track about fashioning appetite, rebellion, and good taste into a performance that sells itself back to the room.",
+    story:
+      "À La Mode moves through the kitchen and the dining room with pearls at the pass, champagne manners, diner appetite, and a sharp eye for how trends are plated, priced, and renamed. It is playful, elegant, and quietly cutting: a New Orleans Sessions piece where everything changes except the game.",
+    coverImage: cover("A-La-Mode.webp"),
+    coverAlt:
+      "Album cover for À La Mode by Kansai Music, a stylish jazz and cabaret-pop track from The New Orleans Sessions.",
+    audioSrc: audio("A-La-Mode.mp3"),
+    credits: defaultCredits,
+  },
+  {
     slug: "clown-tax",
     title: "Clown Tax",
     session: "big-top",
@@ -407,7 +456,6 @@ const trackCatalog: Track[] = [
       "Parody / Response Song",
     ],
     languages: ["English"],
-    featured: true,
     releaseDate: "2026-06-26",
     moods: [
       "Balkan Ska",
@@ -937,6 +985,8 @@ export const moods = [
   "R&B",
   "Soul",
   "Jazz",
+  "R&B/Soul",
+  "Jazz-Funk / Cabaret Pop",
   "Neo-Soul",
   "Romantic",
   "Reflective",
