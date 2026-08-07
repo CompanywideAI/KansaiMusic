@@ -34,6 +34,7 @@ export default function HomePage() {
   const songOfDay = getSongOfDay();
   const featuredTrackOrder = [
     "summer-of-2026",
+    "optimisms-not-a-crime",
     "brittany-a-mascalucia",
     "all-american-cowboy",
     "hollywoods-burning",
@@ -55,6 +56,7 @@ export default function HomePage() {
     "italian",
     "hollywood",
     "london",
+    "surrey",
     "leeds",
     "new-orleans",
     "tokyo",

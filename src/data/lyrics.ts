@@ -1654,6 +1654,86 @@ Mercy got there first.
 
 Don’t act brand new.`,
 
+  "optimisms-not-a-crime": `Tin-can messiah
+Television grin
+Selling Armageddon
+For a dollar to get in
+Tuesday wears a gas mask
+Thursday waves a flag
+Friday sells the ending
+In a plastic bag
+Every little blue light
+Says the sky is coming down
+But the milk is on the doorstep
+And the buses cross the town
+
+The screen says no tomorrow
+But the sun don’t read the news
+If you came to sell me sorrow
+I’ve got better things to do
+
+Hold that line
+Optimism’s not a crime
+These are hard times, honey
+But we’re doing all right
+The sky’s been falling down
+Since the dawn of time
+These are hard times, honey
+But it’s good to be alive
+
+Dallas in November
+Memphis in the rain
+Bobby by the coffee cups
+Never home again
+Chosin froze the bugle
+Saigon burned the screen
+Baghdad bloomed electric
+In phosphorescent green
+Plague-cart bells were ringing
+Breaker boys dug coal
+Every age puts lipstick
+On the devil that it knows
+
+Names and flags keep changing
+But the fever stays the same
+We pin medals on the memory
+So nobody takes the blame
+
+Hold that line
+Optimism’s not a crime
+These are hard times, honey
+But we’re doing all right
+The sky’s been falling down
+Since the dawn of time
+These are hard times, honey
+But it’s good to be alive
+
+The good old days were never that good
+Blackout blinds in the neighborhood
+Breadline boots and victory news
+The good old days had blood on their shoes
+Somebody’s baking the morning bread
+Somebody’s falling in love instead
+Turn down the prophets, turn up the band
+The end of the world’s been postponed again
+
+Hold that line
+Optimism’s not a crime
+These are hard times, honey
+But we’re doing all right
+The sky’s been falling down
+Since the dawn of time
+These are hard times, honey
+But it’s good to be alive
+
+Not the best
+Not the worst
+Take a breath
+Let the old world turn
+Hard times, honey
+
+And we’re still doin' fine`,
+
   "bored": `Just another boring stream
 Another secondhand meme
 Brand ambassador selling joy

@@ -7,6 +7,7 @@ export type Session =
   | "gospel"
   | "hollywood"
   | "london"
+  | "surrey"
   | "leeds"
   | "new-orleans"
   | "tokyo"
@@ -278,6 +279,31 @@ const trackCatalog: Track[] = [
     coverImage: cover("My-Brain-Goes-Boom.webp"),
     audioSrc: audio("My-Brain-Goes-Boom.mp3"),
     youtubeVideoId: "FFTulJtDVUY",
+    credits: defaultCredits,
+  },
+  {
+    slug: "optimisms-not-a-crime",
+    title: "Optimism’s Not a Crime",
+    session: "surrey",
+    sessionLabel: "The Surrey Sessions",
+    album: "The Surrey Sessions",
+    genre: "Alternative",
+    primaryGenre: "Alternative",
+    secondaryStyles: ["Pop"],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-08-07",
+    moods: ["Alternative", "Pop", "Hopeful", "Reflective"],
+    hook:
+      "A defiant Surrey Sessions anthem that refuses to buy the latest end-of-the-world sales pitch.",
+    description:
+      "An alternative-pop track about choosing stubborn optimism in hard times, turning down doom prophets, and remembering that the world has always kept turning.",
+    story:
+      "Optimism’s Not a Crime pushes back against the endless market for fear: blue lights, breaking-news dread, old wars, romanticized hard times, and prophets selling sorrow by the pound. It does not deny the trouble in the world; it simply refuses to hand despair the microphone. The result is a Surrey Sessions release built around grit, perspective, and the plain rebellious pleasure of still being alive.",
+    coverImage: cover("Optimisms-Not-a-Crime.webp"),
+    coverAlt:
+      "Album cover for Optimism’s Not a Crime by Kansai Music, an alternative-pop track from The Surrey Sessions.",
+    audioSrc: audio("Optimisms-Not-a-Crime.mp3"),
     credits: defaultCredits,
   },
   {
@@ -942,6 +968,7 @@ export const sessions = [
   { key: "gospel", label: "Gospel", title: "The Gospel Sessions" },
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
   { key: "london", label: "London", title: "The London Sessions" },
+  { key: "surrey", label: "Surrey", title: "The Surrey Sessions" },
   { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
   { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
   { key: "tokyo", label: "Tokyo", title: "The Tokyo Sessions" },
@@ -956,6 +983,7 @@ export const sessions = [
 
 export const moods = [
   "Pop",
+  "Alternative",
   "Indie Pop",
   "Dance Pop",
   "Country",
