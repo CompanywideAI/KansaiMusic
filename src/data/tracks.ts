@@ -8,6 +8,7 @@ export type Session =
   | "hollywood"
   | "london"
   | "surrey"
+  | "orange-county"
   | "leeds"
   | "new-orleans"
   | "tokyo"
@@ -279,6 +280,31 @@ const trackCatalog: Track[] = [
     coverImage: cover("My-Brain-Goes-Boom.webp"),
     audioSrc: audio("My-Brain-Goes-Boom.mp3"),
     youtubeVideoId: "FFTulJtDVUY",
+    credits: defaultCredits,
+  },
+  {
+    slug: "emotional-hunger",
+    title: "Emotional Hunger (With a Side of Curly Fries)",
+    session: "orange-county",
+    sessionLabel: "The Orange County Sessions",
+    album: "The Orange County Sessions",
+    genre: "Alternative",
+    primaryGenre: "Alternative",
+    secondaryStyles: ["Rock"],
+    languages: ["English"],
+    featured: true,
+    releaseDate: "2026-08-13",
+    moods: ["Alternative", "Rock", "Humorous"],
+    hook:
+      "A crunchy Orange County Sessions satire about emotional hunger, snack logic, and coping by drive-thru.",
+    description:
+      "An alternative-rock comic anthem about mistaking emotional hunger for regular hunger and trying to patch existential dread with chips, dip, Hot Pockets, and curly fries.",
+    story:
+      "Emotional Hunger (With a Side of Curly Fries) turns snack cravings into a loud, funny diagnosis of modern anxiety. Twitch drama, campus bravado, war headlines, stock-market panic, public-health dread, and value meals all collide in an Orange County Sessions track about the very human urge to eat around the feeling instead of naming it.",
+    coverImage: cover("Emotional-Hunger.webp"),
+    coverAlt:
+      "Album cover for Emotional Hunger (With a Side of Curly Fries) by Kansai Music, an alternative rock track from The Orange County Sessions.",
+    audioSrc: audio("Emotional-Hunger.mp3"),
     credits: defaultCredits,
   },
   {
@@ -969,6 +995,7 @@ export const sessions = [
   { key: "hollywood", label: "Hollywood", title: "The Hollywood Sessions" },
   { key: "london", label: "London", title: "The London Sessions" },
   { key: "surrey", label: "Surrey", title: "The Surrey Sessions" },
+  { key: "orange-county", label: "Orange County", title: "The Orange County Sessions" },
   { key: "leeds", label: "Leeds", title: "The Leeds Sessions" },
   { key: "new-orleans", label: "New Orleans", title: "The New Orleans Sessions" },
   { key: "tokyo", label: "Tokyo", title: "The Tokyo Sessions" },

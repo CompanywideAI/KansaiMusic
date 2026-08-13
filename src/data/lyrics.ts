@@ -1654,6 +1654,47 @@ Mercy got there first.
 
 Don’t act brand new.`,
 
+  "emotional-hunger": `This song is dedicated
+To anyone who’s ever confused
+Emotional hunger
+With regular hunger
+
+AstroGlitch 2003 dropped a sub on Twitch last night
+CampusBruh thought I eyed his girl, tried to start a fight
+I said, "Bro, keep your girl, I just want a small bite—
+If I don't get a Hot Pocket, I won't make it through the night!"
+
+I don’t want love, just a bag of chips!
+Don't need forever, just some French onion dip!
+I don’t need a promise, just a mid-day snack,
+A Frosty in the drive-thru keeps me comin’ right back!
+
+The anchor on the news says we’re headin' into war,
+Jim Cramer’s screaming stocks are gonna hit the floor,
+The CDC predicts another plague by next week
+Gotta pack me some Lunchables and a SunnyD!
+
+I don’t want love, just a bag of chips!
+Don't need forever, just some French onion dip!
+I don’t need a promise, just a mid-day snack,
+A Frosty in the drive-thru keeps me comin’ right back!
+
+Maybe there’s an emptiness
+No processed cheese can fill
+Maybe I should face myself—
+But first, this value meal.
+
+I don’t want love, just a bag of chips!
+Don't need forever, just some French onion dip!
+I don’t need a promise, just a mid-day snack,
+A Frosty in the drive-thru keeps me comin’ right back!
+
+Carb up! Fat down! Put the cookie in my mouth!
+Carb up! Fat down! Put the cookie in my mouth!
+
+How do I feel today?
+Nachos.`,
+
   "optimisms-not-a-crime": `Tin-can messiah
 Television grin
 Selling Armageddon
