@@ -33,6 +33,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const songOfDay = getSongOfDay();
   const featuredTrackOrder = [
+    "a-time-called-you",
     "summer-of-2026",
     "emotional-hunger",
     "optimisms-not-a-crime",

@@ -1654,6 +1654,124 @@ Mercy got there first.
 
 Don’t act brand new.`,
 
+  "a-time-called-you": `Yeah, look
+
+In the classroom, it’s early fall
+Paper fortune teller and football
+Pencil fights with a number two
+Slap hands, I’d never lose
+
+As scrubs, we lived in fear
+Crossed the senior lawn on a dare
+Mood rings, eight-track jams
+Drive-in speakers, CB bands
+Star Wars, checkered vans
+Ditto jeans and painter pants
+Always somewhere far to go
+Stayed out till the streetlights glowed
+
+Candy Nerds, Big League Chew
+Mongoose bikes and Rubik’s Cubes
+G.I. Joe and Cabbage Patch Kids
+Members Only jackets, jelly flips
+
+Walkman, music on the go
+Dr. Demento on the radio
+Donkey Kong at the arcade
+Ten thousand points, one more play
+Super Soakers, rollerblades
+Beanie Babies, thought they’d pay
+Dial-up screeching in the hall
+Pagers, chat rooms, AOL and all
+
+Oh, and the world’s rolling on
+Rolling on, yeah
+Taking us further every day
+The voices we remember
+Fade to echoes on the way
+Echoes on the way
+But the songs that used to know us
+Still come drifting through the room
+And for a moment I’m back there
+To a time called you, oh, oh, oh
+Time called you, yeah
+
+Alright, listen
+
+Razor scooters, trucker hats
+Sharpie titles, CD stacks
+Click-wheel circles, MP3s
+MySpace top eight following me
+Plastic guitars, rock-star dreams
+Wii remotes through TV screens
+
+Six-second loops and fidget spins
+Angry Birds on morning trains
+Pocket monsters filled the parks
+Block-built empires after dark
+Everything came on demand
+Everything slipped right through our hands
+
+Oh, and the world’s rolling on
+World’s rolling on
+Taking us further every day
+The voices we remember
+Fade to echoes on the way
+Echoes on the way
+But the songs that used to know us
+Still come drifting through the room
+And for a moment I’m back there
+To a time called you, oh, oh, oh
+
+Empty roads, homemade bread
+Paper masks and unmade beds
+Store shelves bare, touch grass
+Nobody knew how long it’d last
+Wordle grids and cable news
+Vintage fits and thrift-store shoes
+
+Crypto coins and digital land
+Streaming life straight from our hands
+Everything we threw away
+Repackaged for another day
+The future showed up right in line
+While we were busy at the time
+
+History isn’t only wars
+Or dates we memorized
+It’s the smell of your parents’ house
+The kitchen light at five
+
+It’s everything that ended
+Before we knew to mind
+The last time passed unnoticed
+We were busy at the time
+
+Oh, and the world’s rolling on
+Oh, rolling on, yeah
+Taking us further every day
+Oh, rolling on, yeah
+Taking us further every day
+Farther every day
+The voices we remember
+Fade to echoes on the way
+Echoes on the way
+But the songs that used to know us
+Still come drifting through the room
+And for a moment I’m back there
+To a time called you, oh, oh, oh
+Called you, oh, oh, oh
+
+No one said, “Remember this”
+Busy at the time
+No one knew what we would miss
+Busy at the time
+Running down tomorrow’s line
+We didn’t know we loved it
+We were busy at the time
+We didn’t know we loved it
+We were busy at the`,
+
   "emotional-hunger": `This song is dedicated
 To anyone who’s ever confused
 Emotional hunger

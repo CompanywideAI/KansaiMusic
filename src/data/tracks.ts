@@ -127,6 +127,47 @@ const trackCatalog: Track[] = [
     credits: defaultCredits,
   },
   {
+    slug: "a-time-called-you",
+    title: "A Time Called You",
+    session: "milo",
+    sessionLabel: "The Milo Sessions",
+    album: "The Milo Sessions",
+    genre: "Alternative",
+    primaryGenre: "Alternative",
+    secondaryStyles: ["Alternative Pop", "Acoustic Pop", "Folk-Rock"],
+    languages: ["English"],
+    featured: true,
+    songOfDay: true,
+    releaseDate: "2026-08-19",
+    moods: ["Alternative", "Pop", "Alternative Pop", "Acoustic Pop", "Folk-Rock", "Nostalgic", "Reflective"],
+    hook:
+      "A fast-moving Milo Sessions song where classrooms, candy, arcades, dial-up noise, and pandemic quiet rush back into view.",
+    description:
+      "A propulsive, nostalgia-charged alternative pop song that races through classrooms, candy, arcades, dial-up modems and pandemic quiet, then lands on the people and ordinary moments time carried away.",
+    story:
+      "A Time Called You races through decades of shared memories: paper fortune tellers, candy necklaces, arcade games, cassette tapes, pagers, MySpace and empty pandemic streets. Beneath its rapid-fire delivery and driving acoustic rhythm is a more personal realization: we rarely recognize the final time something happens while we are still busy living it.",
+    seoTitle: "A Time Called You - Kansai Music",
+    seoDescription:
+      "A Time Called You by Kansai Music races through decades of shared memories to find the people and ordinary moments we never knew we would miss.",
+    metaKeywords: [
+      "A Time Called You",
+      "Kansai Music",
+      "alternative pop",
+      "acoustic pop",
+      "folk-rock",
+      "nostalgia",
+      "retro",
+      "generational memories",
+      "childhood memories",
+      "rapid-fire lyrics",
+    ],
+    coverImage: cover("A-Time-Called-You.webp"),
+    coverAlt:
+      "Retro cover for A Time Called You showing a close-up of a young woman wearing a partially eaten candy necklace with pastel candy stains on her neck.",
+    audioSrc: audio("A-Time-Called-You.mp3"),
+    credits: defaultCredits,
+  },
+  {
     slug: "summer-of-2026",
     title: "Summer of 2026",
     session: "country",
@@ -137,7 +178,6 @@ const trackCatalog: Track[] = [
     secondaryStyles: ["Country"],
     languages: ["English"],
     featured: true,
-    songOfDay: true,
     releaseDate: "2026-07-10",
     moods: ["Pop", "Country", "Country Pop", "Feel-Good", "Nostalgic"],
     hook:
@@ -1011,6 +1051,8 @@ export const sessions = [
 export const moods = [
   "Pop",
   "Alternative",
+  "Folk-Rock",
+  "Acoustic Pop",
   "Indie Pop",
   "Dance Pop",
   "Country",
